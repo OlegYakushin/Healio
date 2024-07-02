@@ -7,18 +7,135 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8B217C732C3015C8009EEAC4 /* EachSettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B217C722C3015C8009EEAC4 /* EachSettingView.swift */; };
+		8B217C752C318CD7009EEAC4 /* EachLikedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B217C742C318CD7009EEAC4 /* EachLikedView.swift */; };
+		8B217C802C32E987009EEAC4 /* HowEmotionalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B217C7F2C32E987009EEAC4 /* HowEmotionalView.swift */; };
+		8B217C822C32EB3A009EEAC4 /* OvercomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B217C812C32EB3A009EEAC4 /* OvercomeView.swift */; };
+		8B217C842C32F2E5009EEAC4 /* ThisIsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B217C832C32F2E5009EEAC4 /* ThisIsView.swift */; };
+		8B217C862C32F3CA009EEAC4 /* SetUpdailyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B217C852C32F3CA009EEAC4 /* SetUpdailyView.swift */; };
+		8B217C882C32F4F7009EEAC4 /* PerosonaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B217C872C32F4F7009EEAC4 /* PerosonaView.swift */; };
+		8B217C8A2C32F60D009EEAC4 /* BegunView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B217C892C32F60D009EEAC4 /* BegunView.swift */; };
+		8B217C8C2C32F6F5009EEAC4 /* TryPremiumView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B217C8B2C32F6F5009EEAC4 /* TryPremiumView.swift */; };
+		8B217C972C33FA65009EEAC4 /* Healio2.gif in Resources */ = {isa = PBXBuildFile; fileRef = 8B217C962C33FA65009EEAC4 /* Healio2.gif */; };
 		8B70A1382C2AC79F00A2FEAA /* HealioApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B70A1372C2AC79F00A2FEAA /* HealioApp.swift */; };
 		8B70A13A2C2AC79F00A2FEAA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B70A1392C2AC79F00A2FEAA /* ContentView.swift */; };
 		8B70A13C2C2AC7A100A2FEAA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B70A13B2C2AC7A100A2FEAA /* Assets.xcassets */; };
 		8B70A13F2C2AC7A100A2FEAA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B70A13E2C2AC7A100A2FEAA /* Preview Assets.xcassets */; };
+		8B70A14D2C2AC8BB00A2FEAA /* AveriaSerifLibre-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8B70A1472C2AC8BB00A2FEAA /* AveriaSerifLibre-Light.ttf */; };
+		8B70A14E2C2AC8BB00A2FEAA /* AveriaSerifLibre-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8B70A1482C2AC8BB00A2FEAA /* AveriaSerifLibre-Regular.ttf */; };
+		8B70A14F2C2AC8BB00A2FEAA /* AveriaSerifLibre-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8B70A1492C2AC8BB00A2FEAA /* AveriaSerifLibre-Bold.ttf */; };
+		8B70A1502C2AC8BB00A2FEAA /* AveriaSerifLibre-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8B70A14A2C2AC8BB00A2FEAA /* AveriaSerifLibre-BoldItalic.ttf */; };
+		8B70A1512C2AC8BB00A2FEAA /* AveriaSerifLibre-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8B70A14B2C2AC8BB00A2FEAA /* AveriaSerifLibre-LightItalic.ttf */; };
+		8B70A1522C2AC8BB00A2FEAA /* AveriaSerifLibre-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8B70A14C2C2AC8BB00A2FEAA /* AveriaSerifLibre-Italic.ttf */; };
+		8B70A1582C2AC94B00A2FEAA /* HelloView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B70A1572C2AC94B00A2FEAA /* HelloView.swift */; };
+		8B70A15A2C2AC97200A2FEAA /* BackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B70A1592C2AC97100A2FEAA /* BackgroundView.swift */; };
+		8B70A15D2C2ACAD100A2FEAA /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 8B70A15C2C2ACAD100A2FEAA /* SDWebImageSwiftUI */; };
+		8B70A1602C2ACB1C00A2FEAA /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = 8B70A15F2C2ACB1C00A2FEAA /* Lottie */; };
+		8B70A1622C2ACC4300A2FEAA /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B70A1612C2ACC4300A2FEAA /* WelcomeView.swift */; };
+		8B70A1642C2ACC6500A2FEAA /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B70A1632C2ACC6500A2FEAA /* ButtonView.swift */; };
+		8B70A1662C2ACDD000A2FEAA /* Welcome2View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B70A1652C2ACDD000A2FEAA /* Welcome2View.swift */; };
+		8B70A1682C2B17D700A2FEAA /* WelcomeNameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B70A1672C2B17D700A2FEAA /* WelcomeNameView.swift */; };
+		8B70A16A2C2B198200A2FEAA /* EachDiseasesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B70A1692C2B198200A2FEAA /* EachDiseasesView.swift */; };
+		8B70A1782C2B1E7500A2FEAA /* Avenir-Oblique.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8B70A16C2C2B1E7400A2FEAA /* Avenir-Oblique.otf */; };
+		8B70A1792C2B1E7500A2FEAA /* Avenir-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8B70A16D2C2B1E7400A2FEAA /* Avenir-Black.otf */; };
+		8B70A17A2C2B1E7500A2FEAA /* Avenir-Roman.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8B70A16E2C2B1E7400A2FEAA /* Avenir-Roman.otf */; };
+		8B70A17B2C2B1E7500A2FEAA /* Avenir-Book.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8B70A16F2C2B1E7400A2FEAA /* Avenir-Book.otf */; };
+		8B70A17C2C2B1E7500A2FEAA /* Avenir-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8B70A1702C2B1E7400A2FEAA /* Avenir-Light.otf */; };
+		8B70A17D2C2B1E7500A2FEAA /* Avenir-BookOblique.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8B70A1712C2B1E7500A2FEAA /* Avenir-BookOblique.otf */; };
+		8B70A17E2C2B1E7500A2FEAA /* Avenir-BlackOblique.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8B70A1722C2B1E7500A2FEAA /* Avenir-BlackOblique.otf */; };
+		8B70A17F2C2B1E7500A2FEAA /* Avenir-Heavy.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8B70A1732C2B1E7500A2FEAA /* Avenir-Heavy.otf */; };
+		8B70A1802C2B1E7500A2FEAA /* Avenir-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8B70A1742C2B1E7500A2FEAA /* Avenir-Medium.otf */; };
+		8B70A1812C2B1E7500A2FEAA /* Avenir-MediumOblique.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8B70A1752C2B1E7500A2FEAA /* Avenir-MediumOblique.otf */; };
+		8B70A1822C2B1E7500A2FEAA /* Avenir-LightOblique.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8B70A1762C2B1E7500A2FEAA /* Avenir-LightOblique.otf */; };
+		8B70A1832C2B1E7500A2FEAA /* Avenir-HeavyOblique.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8B70A1772C2B1E7500A2FEAA /* Avenir-HeavyOblique.otf */; };
+		8B70A1852C2B1F4A00A2FEAA /* IllnessView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B70A1842C2B1F4A00A2FEAA /* IllnessView.swift */; };
+		8B70A1872C2B1FAB00A2FEAA /* PremiumView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B70A1862C2B1FAB00A2FEAA /* PremiumView.swift */; };
+		8B70A18A2C2B221F00A2FEAA /* Averta-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8B70A1892C2B221F00A2FEAA /* Averta-Regular.otf */; };
+		8B70A18C2C2C144E00A2FEAA /* Welcome3View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B70A18B2C2C144E00A2FEAA /* Welcome3View.swift */; };
+		8B70A18E2C2C14B400A2FEAA /* NameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B70A18D2C2C14B400A2FEAA /* NameView.swift */; };
+		8B70A1902C2C1B6000A2FEAA /* EmotionalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B70A18F2C2C1B6000A2FEAA /* EmotionalView.swift */; };
+		8B70A1922C2C235100A2FEAA /* SituationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B70A1912C2C235100A2FEAA /* SituationsView.swift */; };
+		8B70A1942C2C237C00A2FEAA /* GriefView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B70A1932C2C237C00A2FEAA /* GriefView.swift */; };
+		8B70A1962C2C23AF00A2FEAA /* FailureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B70A1952C2C23AF00A2FEAA /* FailureView.swift */; };
+		8B70A1982C2C23E400A2FEAA /* StressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B70A1972C2C23E400A2FEAA /* StressView.swift */; };
+		8B70A19B2C2C2A8200A2FEAA /* FunctionForResize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B70A19A2C2C2A8200A2FEAA /* FunctionForResize.swift */; };
+		8BA4BF4A2C2C7A9E00BDDD4E /* AvertaDemoPE-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8BA4BF492C2C7A9E00BDDD4E /* AvertaDemoPE-Regular.otf */; };
+		8BA4BF4C2C2C7B0300BDDD4E /* Averta-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8BA4BF4B2C2C7B0300BDDD4E /* Averta-Bold.ttf */; };
+		8BA4BF4E2C2D7CDC00BDDD4E /* EachEmotionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BA4BF4D2C2D7CDC00BDDD4E /* EachEmotionView.swift */; };
+		8BA4BF502C2D7DEE00BDDD4E /* TabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BA4BF4F2C2D7DEE00BDDD4E /* TabView.swift */; };
+		8BA4BF522C2D7E5400BDDD4E /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BA4BF512C2D7E5400BDDD4E /* HomeView.swift */; };
+		8BA4BF542C2D7E6F00BDDD4E /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BA4BF532C2D7E6F00BDDD4E /* SearchView.swift */; };
+		8BA4BF562C2D7E8100BDDD4E /* LikedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BA4BF552C2D7E8100BDDD4E /* LikedView.swift */; };
+		8BA4BF582C2D7EA200BDDD4E /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BA4BF572C2D7EA200BDDD4E /* SettingsView.swift */; };
+		8BA4BFB82C2DC80300BDDD4E /* TW-Averta-Semibold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8BA4BFB72C2DC80300BDDD4E /* TW-Averta-Semibold.ttf */; };
+		8BA4BFBA2C2EDE3400BDDD4E /* EachSkinView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BA4BFB92C2EDE3400BDDD4E /* EachSkinView.swift */; };
+		8BA4BFBC2C2EEB0700BDDD4E /* EachOvercomeEmotionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BA4BFBB2C2EEB0700BDDD4E /* EachOvercomeEmotionView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8B217C722C3015C8009EEAC4 /* EachSettingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EachSettingView.swift; sourceTree = "<group>"; };
+		8B217C742C318CD7009EEAC4 /* EachLikedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EachLikedView.swift; sourceTree = "<group>"; };
+		8B217C7F2C32E987009EEAC4 /* HowEmotionalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HowEmotionalView.swift; sourceTree = "<group>"; };
+		8B217C812C32EB3A009EEAC4 /* OvercomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OvercomeView.swift; sourceTree = "<group>"; };
+		8B217C832C32F2E5009EEAC4 /* ThisIsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThisIsView.swift; sourceTree = "<group>"; };
+		8B217C852C32F3CA009EEAC4 /* SetUpdailyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetUpdailyView.swift; sourceTree = "<group>"; };
+		8B217C872C32F4F7009EEAC4 /* PerosonaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerosonaView.swift; sourceTree = "<group>"; };
+		8B217C892C32F60D009EEAC4 /* BegunView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BegunView.swift; sourceTree = "<group>"; };
+		8B217C8B2C32F6F5009EEAC4 /* TryPremiumView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TryPremiumView.swift; sourceTree = "<group>"; };
+		8B217C962C33FA65009EEAC4 /* Healio2.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Healio2.gif; sourceTree = "<group>"; };
 		8B70A1342C2AC79F00A2FEAA /* Healio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Healio.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B70A1372C2AC79F00A2FEAA /* HealioApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealioApp.swift; sourceTree = "<group>"; };
 		8B70A1392C2AC79F00A2FEAA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		8B70A13B2C2AC7A100A2FEAA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8B70A13E2C2AC7A100A2FEAA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8B70A1472C2AC8BB00A2FEAA /* AveriaSerifLibre-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AveriaSerifLibre-Light.ttf"; sourceTree = "<group>"; };
+		8B70A1482C2AC8BB00A2FEAA /* AveriaSerifLibre-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AveriaSerifLibre-Regular.ttf"; sourceTree = "<group>"; };
+		8B70A1492C2AC8BB00A2FEAA /* AveriaSerifLibre-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AveriaSerifLibre-Bold.ttf"; sourceTree = "<group>"; };
+		8B70A14A2C2AC8BB00A2FEAA /* AveriaSerifLibre-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AveriaSerifLibre-BoldItalic.ttf"; sourceTree = "<group>"; };
+		8B70A14B2C2AC8BB00A2FEAA /* AveriaSerifLibre-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AveriaSerifLibre-LightItalic.ttf"; sourceTree = "<group>"; };
+		8B70A14C2C2AC8BB00A2FEAA /* AveriaSerifLibre-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AveriaSerifLibre-Italic.ttf"; sourceTree = "<group>"; };
+		8B70A1542C2AC8F400A2FEAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		8B70A1572C2AC94B00A2FEAA /* HelloView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloView.swift; sourceTree = "<group>"; };
+		8B70A1592C2AC97100A2FEAA /* BackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundView.swift; sourceTree = "<group>"; };
+		8B70A1612C2ACC4300A2FEAA /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
+		8B70A1632C2ACC6500A2FEAA /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
+		8B70A1652C2ACDD000A2FEAA /* Welcome2View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Welcome2View.swift; sourceTree = "<group>"; };
+		8B70A1672C2B17D700A2FEAA /* WelcomeNameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeNameView.swift; sourceTree = "<group>"; };
+		8B70A1692C2B198200A2FEAA /* EachDiseasesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EachDiseasesView.swift; sourceTree = "<group>"; };
+		8B70A16C2C2B1E7400A2FEAA /* Avenir-Oblique.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Avenir-Oblique.otf"; sourceTree = "<group>"; };
+		8B70A16D2C2B1E7400A2FEAA /* Avenir-Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Avenir-Black.otf"; sourceTree = "<group>"; };
+		8B70A16E2C2B1E7400A2FEAA /* Avenir-Roman.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Avenir-Roman.otf"; sourceTree = "<group>"; };
+		8B70A16F2C2B1E7400A2FEAA /* Avenir-Book.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Avenir-Book.otf"; sourceTree = "<group>"; };
+		8B70A1702C2B1E7400A2FEAA /* Avenir-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Avenir-Light.otf"; sourceTree = "<group>"; };
+		8B70A1712C2B1E7500A2FEAA /* Avenir-BookOblique.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Avenir-BookOblique.otf"; sourceTree = "<group>"; };
+		8B70A1722C2B1E7500A2FEAA /* Avenir-BlackOblique.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Avenir-BlackOblique.otf"; sourceTree = "<group>"; };
+		8B70A1732C2B1E7500A2FEAA /* Avenir-Heavy.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Avenir-Heavy.otf"; sourceTree = "<group>"; };
+		8B70A1742C2B1E7500A2FEAA /* Avenir-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Avenir-Medium.otf"; sourceTree = "<group>"; };
+		8B70A1752C2B1E7500A2FEAA /* Avenir-MediumOblique.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Avenir-MediumOblique.otf"; sourceTree = "<group>"; };
+		8B70A1762C2B1E7500A2FEAA /* Avenir-LightOblique.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Avenir-LightOblique.otf"; sourceTree = "<group>"; };
+		8B70A1772C2B1E7500A2FEAA /* Avenir-HeavyOblique.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Avenir-HeavyOblique.otf"; sourceTree = "<group>"; };
+		8B70A1842C2B1F4A00A2FEAA /* IllnessView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IllnessView.swift; sourceTree = "<group>"; };
+		8B70A1862C2B1FAB00A2FEAA /* PremiumView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PremiumView.swift; sourceTree = "<group>"; };
+		8B70A1892C2B221F00A2FEAA /* Averta-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Averta-Regular.otf"; sourceTree = "<group>"; };
+		8B70A18B2C2C144E00A2FEAA /* Welcome3View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Welcome3View.swift; sourceTree = "<group>"; };
+		8B70A18D2C2C14B400A2FEAA /* NameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NameView.swift; sourceTree = "<group>"; };
+		8B70A18F2C2C1B6000A2FEAA /* EmotionalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmotionalView.swift; sourceTree = "<group>"; };
+		8B70A1912C2C235100A2FEAA /* SituationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SituationsView.swift; sourceTree = "<group>"; };
+		8B70A1932C2C237C00A2FEAA /* GriefView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GriefView.swift; sourceTree = "<group>"; };
+		8B70A1952C2C23AF00A2FEAA /* FailureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FailureView.swift; sourceTree = "<group>"; };
+		8B70A1972C2C23E400A2FEAA /* StressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StressView.swift; sourceTree = "<group>"; };
+		8B70A19A2C2C2A8200A2FEAA /* FunctionForResize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunctionForResize.swift; sourceTree = "<group>"; };
+		8BA4BF492C2C7A9E00BDDD4E /* AvertaDemoPE-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AvertaDemoPE-Regular.otf"; sourceTree = "<group>"; };
+		8BA4BF4B2C2C7B0300BDDD4E /* Averta-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Averta-Bold.ttf"; sourceTree = "<group>"; };
+		8BA4BF4D2C2D7CDC00BDDD4E /* EachEmotionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EachEmotionView.swift; sourceTree = "<group>"; };
+		8BA4BF4F2C2D7DEE00BDDD4E /* TabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabView.swift; sourceTree = "<group>"; };
+		8BA4BF512C2D7E5400BDDD4E /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		8BA4BF532C2D7E6F00BDDD4E /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
+		8BA4BF552C2D7E8100BDDD4E /* LikedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LikedView.swift; sourceTree = "<group>"; };
+		8BA4BF572C2D7EA200BDDD4E /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		8BA4BFB72C2DC80300BDDD4E /* TW-Averta-Semibold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TW-Averta-Semibold.ttf"; sourceTree = "<group>"; };
+		8BA4BFB92C2EDE3400BDDD4E /* EachSkinView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EachSkinView.swift; sourceTree = "<group>"; };
+		8BA4BFBB2C2EEB0700BDDD4E /* EachOvercomeEmotionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EachOvercomeEmotionView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +143,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B70A15D2C2ACAD100A2FEAA /* SDWebImageSwiftUI in Frameworks */,
+				8B70A1602C2ACB1C00A2FEAA /* Lottie in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -51,6 +170,11 @@
 		8B70A1362C2AC79F00A2FEAA /* Healio */ = {
 			isa = PBXGroup;
 			children = (
+				8B70A1992C2C287D00A2FEAA /* Functions */,
+				8B70A1552C2AC92600A2FEAA /* Views */,
+				8B70A1542C2AC8F400A2FEAA /* Info.plist */,
+				8B70A1452C2AC85500A2FEAA /* Fonts */,
+				8B217C962C33FA65009EEAC4 /* Healio2.gif */,
 				8B70A1372C2AC79F00A2FEAA /* HealioApp.swift */,
 				8B70A1392C2AC79F00A2FEAA /* ContentView.swift */,
 				8B70A13B2C2AC7A100A2FEAA /* Assets.xcassets */,
@@ -65,6 +189,123 @@
 				8B70A13E2C2AC7A100A2FEAA /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8B70A1452C2AC85500A2FEAA /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				8B70A1882C2B213000A2FEAA /* Averta */,
+				8B70A16B2C2B1E6600A2FEAA /* Avenir */,
+				8B70A1462C2AC8AA00A2FEAA /* Averia Serif */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		8B70A1462C2AC8AA00A2FEAA /* Averia Serif */ = {
+			isa = PBXGroup;
+			children = (
+				8B70A1492C2AC8BB00A2FEAA /* AveriaSerifLibre-Bold.ttf */,
+				8B70A14A2C2AC8BB00A2FEAA /* AveriaSerifLibre-BoldItalic.ttf */,
+				8B70A14C2C2AC8BB00A2FEAA /* AveriaSerifLibre-Italic.ttf */,
+				8B70A1472C2AC8BB00A2FEAA /* AveriaSerifLibre-Light.ttf */,
+				8B70A14B2C2AC8BB00A2FEAA /* AveriaSerifLibre-LightItalic.ttf */,
+				8B70A1482C2AC8BB00A2FEAA /* AveriaSerifLibre-Regular.ttf */,
+			);
+			path = "Averia Serif";
+			sourceTree = "<group>";
+		};
+		8B70A1552C2AC92600A2FEAA /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8BA4BF482C2C79FD00BDDD4E /* Home */,
+				8B70A1562C2AC92C00A2FEAA /* Onboarding */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		8B70A1562C2AC92C00A2FEAA /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				8B70A1572C2AC94B00A2FEAA /* HelloView.swift */,
+				8B70A1612C2ACC4300A2FEAA /* WelcomeView.swift */,
+				8B70A1652C2ACDD000A2FEAA /* Welcome2View.swift */,
+				8B70A1592C2AC97100A2FEAA /* BackgroundView.swift */,
+				8B70A18B2C2C144E00A2FEAA /* Welcome3View.swift */,
+				8B70A18D2C2C14B400A2FEAA /* NameView.swift */,
+				8B70A1672C2B17D700A2FEAA /* WelcomeNameView.swift */,
+				8B70A1692C2B198200A2FEAA /* EachDiseasesView.swift */,
+				8B70A1842C2B1F4A00A2FEAA /* IllnessView.swift */,
+				8B70A18F2C2C1B6000A2FEAA /* EmotionalView.swift */,
+				8B70A1912C2C235100A2FEAA /* SituationsView.swift */,
+				8B70A1932C2C237C00A2FEAA /* GriefView.swift */,
+				8B70A1972C2C23E400A2FEAA /* StressView.swift */,
+				8B217C7F2C32E987009EEAC4 /* HowEmotionalView.swift */,
+				8B217C832C32F2E5009EEAC4 /* ThisIsView.swift */,
+				8B217C852C32F3CA009EEAC4 /* SetUpdailyView.swift */,
+				8B217C872C32F4F7009EEAC4 /* PerosonaView.swift */,
+				8B217C892C32F60D009EEAC4 /* BegunView.swift */,
+				8B217C8B2C32F6F5009EEAC4 /* TryPremiumView.swift */,
+				8B217C812C32EB3A009EEAC4 /* OvercomeView.swift */,
+				8B70A1952C2C23AF00A2FEAA /* FailureView.swift */,
+				8B70A1862C2B1FAB00A2FEAA /* PremiumView.swift */,
+				8B70A1632C2ACC6500A2FEAA /* ButtonView.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		8B70A16B2C2B1E6600A2FEAA /* Avenir */ = {
+			isa = PBXGroup;
+			children = (
+				8B70A16D2C2B1E7400A2FEAA /* Avenir-Black.otf */,
+				8B70A1722C2B1E7500A2FEAA /* Avenir-BlackOblique.otf */,
+				8B70A16F2C2B1E7400A2FEAA /* Avenir-Book.otf */,
+				8B70A1712C2B1E7500A2FEAA /* Avenir-BookOblique.otf */,
+				8B70A1732C2B1E7500A2FEAA /* Avenir-Heavy.otf */,
+				8B70A1772C2B1E7500A2FEAA /* Avenir-HeavyOblique.otf */,
+				8B70A1702C2B1E7400A2FEAA /* Avenir-Light.otf */,
+				8B70A1762C2B1E7500A2FEAA /* Avenir-LightOblique.otf */,
+				8B70A1742C2B1E7500A2FEAA /* Avenir-Medium.otf */,
+				8B70A1752C2B1E7500A2FEAA /* Avenir-MediumOblique.otf */,
+				8B70A16C2C2B1E7400A2FEAA /* Avenir-Oblique.otf */,
+				8B70A16E2C2B1E7400A2FEAA /* Avenir-Roman.otf */,
+			);
+			path = Avenir;
+			sourceTree = "<group>";
+		};
+		8B70A1882C2B213000A2FEAA /* Averta */ = {
+			isa = PBXGroup;
+			children = (
+				8BA4BF4B2C2C7B0300BDDD4E /* Averta-Bold.ttf */,
+				8BA4BFB72C2DC80300BDDD4E /* TW-Averta-Semibold.ttf */,
+				8BA4BF492C2C7A9E00BDDD4E /* AvertaDemoPE-Regular.otf */,
+				8B70A1892C2B221F00A2FEAA /* Averta-Regular.otf */,
+			);
+			path = Averta;
+			sourceTree = "<group>";
+		};
+		8B70A1992C2C287D00A2FEAA /* Functions */ = {
+			isa = PBXGroup;
+			children = (
+				8B70A19A2C2C2A8200A2FEAA /* FunctionForResize.swift */,
+			);
+			path = Functions;
+			sourceTree = "<group>";
+		};
+		8BA4BF482C2C79FD00BDDD4E /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				8BA4BF4D2C2D7CDC00BDDD4E /* EachEmotionView.swift */,
+				8BA4BFBB2C2EEB0700BDDD4E /* EachOvercomeEmotionView.swift */,
+				8BA4BFB92C2EDE3400BDDD4E /* EachSkinView.swift */,
+				8BA4BF4F2C2D7DEE00BDDD4E /* TabView.swift */,
+				8BA4BF512C2D7E5400BDDD4E /* HomeView.swift */,
+				8BA4BF552C2D7E8100BDDD4E /* LikedView.swift */,
+				8B217C742C318CD7009EEAC4 /* EachLikedView.swift */,
+				8BA4BF572C2D7EA200BDDD4E /* SettingsView.swift */,
+				8BA4BF532C2D7E6F00BDDD4E /* SearchView.swift */,
+				8B217C722C3015C8009EEAC4 /* EachSettingView.swift */,
+			);
+			path = Home;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +324,10 @@
 			dependencies = (
 			);
 			name = Healio;
+			packageProductDependencies = (
+				8B70A15C2C2ACAD100A2FEAA /* SDWebImageSwiftUI */,
+				8B70A15F2C2ACB1C00A2FEAA /* Lottie */,
+			);
 			productName = Healio;
 			productReference = 8B70A1342C2AC79F00A2FEAA /* Healio.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +356,10 @@
 				Base,
 			);
 			mainGroup = 8B70A12B2C2AC79F00A2FEAA;
+			packageReferences = (
+				8B70A15B2C2ACAD100A2FEAA /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */,
+				8B70A15E2C2ACB1C00A2FEAA /* XCRemoteSwiftPackageReference "lottie-spm" */,
+			);
 			productRefGroup = 8B70A1352C2AC79F00A2FEAA /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -125,8 +374,31 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B70A1502C2AC8BB00A2FEAA /* AveriaSerifLibre-BoldItalic.ttf in Resources */,
+				8B70A17D2C2B1E7500A2FEAA /* Avenir-BookOblique.otf in Resources */,
+				8B70A1522C2AC8BB00A2FEAA /* AveriaSerifLibre-Italic.ttf in Resources */,
+				8B70A1792C2B1E7500A2FEAA /* Avenir-Black.otf in Resources */,
+				8B70A17C2C2B1E7500A2FEAA /* Avenir-Light.otf in Resources */,
+				8B70A17E2C2B1E7500A2FEAA /* Avenir-BlackOblique.otf in Resources */,
+				8B70A17F2C2B1E7500A2FEAA /* Avenir-Heavy.otf in Resources */,
+				8B217C972C33FA65009EEAC4 /* Healio2.gif in Resources */,
+				8B70A18A2C2B221F00A2FEAA /* Averta-Regular.otf in Resources */,
+				8B70A1802C2B1E7500A2FEAA /* Avenir-Medium.otf in Resources */,
+				8BA4BFB82C2DC80300BDDD4E /* TW-Averta-Semibold.ttf in Resources */,
 				8B70A13F2C2AC7A100A2FEAA /* Preview Assets.xcassets in Resources */,
+				8B70A14D2C2AC8BB00A2FEAA /* AveriaSerifLibre-Light.ttf in Resources */,
+				8B70A17A2C2B1E7500A2FEAA /* Avenir-Roman.otf in Resources */,
+				8B70A1812C2B1E7500A2FEAA /* Avenir-MediumOblique.otf in Resources */,
+				8B70A14E2C2AC8BB00A2FEAA /* AveriaSerifLibre-Regular.ttf in Resources */,
+				8B70A1782C2B1E7500A2FEAA /* Avenir-Oblique.otf in Resources */,
+				8B70A1832C2B1E7500A2FEAA /* Avenir-HeavyOblique.otf in Resources */,
+				8BA4BF4C2C2C7B0300BDDD4E /* Averta-Bold.ttf in Resources */,
+				8B70A1822C2B1E7500A2FEAA /* Avenir-LightOblique.otf in Resources */,
+				8B70A14F2C2AC8BB00A2FEAA /* AveriaSerifLibre-Bold.ttf in Resources */,
+				8B70A1512C2AC8BB00A2FEAA /* AveriaSerifLibre-LightItalic.ttf in Resources */,
 				8B70A13C2C2AC7A100A2FEAA /* Assets.xcassets in Resources */,
+				8B70A17B2C2B1E7500A2FEAA /* Avenir-Book.otf in Resources */,
+				8BA4BF4A2C2C7A9E00BDDD4E /* AvertaDemoPE-Regular.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,8 +409,42 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B70A18E2C2C14B400A2FEAA /* NameView.swift in Sources */,
+				8B217C882C32F4F7009EEAC4 /* PerosonaView.swift in Sources */,
+				8B70A16A2C2B198200A2FEAA /* EachDiseasesView.swift in Sources */,
+				8B70A1942C2C237C00A2FEAA /* GriefView.swift in Sources */,
+				8B217C8A2C32F60D009EEAC4 /* BegunView.swift in Sources */,
+				8B217C862C32F3CA009EEAC4 /* SetUpdailyView.swift in Sources */,
+				8B70A1872C2B1FAB00A2FEAA /* PremiumView.swift in Sources */,
+				8BA4BF502C2D7DEE00BDDD4E /* TabView.swift in Sources */,
+				8BA4BF522C2D7E5400BDDD4E /* HomeView.swift in Sources */,
+				8BA4BF562C2D7E8100BDDD4E /* LikedView.swift in Sources */,
+				8BA4BFBC2C2EEB0700BDDD4E /* EachOvercomeEmotionView.swift in Sources */,
+				8B70A1682C2B17D700A2FEAA /* WelcomeNameView.swift in Sources */,
+				8B70A19B2C2C2A8200A2FEAA /* FunctionForResize.swift in Sources */,
+				8B70A1622C2ACC4300A2FEAA /* WelcomeView.swift in Sources */,
+				8BA4BF4E2C2D7CDC00BDDD4E /* EachEmotionView.swift in Sources */,
+				8B70A1852C2B1F4A00A2FEAA /* IllnessView.swift in Sources */,
+				8B217C752C318CD7009EEAC4 /* EachLikedView.swift in Sources */,
+				8B70A1582C2AC94B00A2FEAA /* HelloView.swift in Sources */,
+				8B217C732C3015C8009EEAC4 /* EachSettingView.swift in Sources */,
+				8B217C802C32E987009EEAC4 /* HowEmotionalView.swift in Sources */,
+				8B217C8C2C32F6F5009EEAC4 /* TryPremiumView.swift in Sources */,
+				8B70A1922C2C235100A2FEAA /* SituationsView.swift in Sources */,
+				8BA4BFBA2C2EDE3400BDDD4E /* EachSkinView.swift in Sources */,
+				8BA4BF542C2D7E6F00BDDD4E /* SearchView.swift in Sources */,
+				8BA4BF582C2D7EA200BDDD4E /* SettingsView.swift in Sources */,
+				8B70A1642C2ACC6500A2FEAA /* ButtonView.swift in Sources */,
+				8B217C822C32EB3A009EEAC4 /* OvercomeView.swift in Sources */,
 				8B70A13A2C2AC79F00A2FEAA /* ContentView.swift in Sources */,
+				8B70A1662C2ACDD000A2FEAA /* Welcome2View.swift in Sources */,
+				8B70A1982C2C23E400A2FEAA /* StressView.swift in Sources */,
+				8B217C842C32F2E5009EEAC4 /* ThisIsView.swift in Sources */,
+				8B70A15A2C2AC97200A2FEAA /* BackgroundView.swift in Sources */,
 				8B70A1382C2AC79F00A2FEAA /* HealioApp.swift in Sources */,
+				8B70A18C2C2C144E00A2FEAA /* Welcome3View.swift in Sources */,
+				8B70A1902C2C1B6000A2FEAA /* EmotionalView.swift in Sources */,
+				8B70A1962C2C23AF00A2FEAA /* FailureView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -197,7 +503,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -254,7 +560,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -270,16 +576,18 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 7;
 				DEVELOPMENT_ASSET_PATHS = "\"Healio/Preview Content\"";
 				DEVELOPMENT_TEAM = 9NYCJV4J3K;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Healio/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -287,9 +595,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "Oleg-Yakushin.Healio";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -299,16 +611,18 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 7;
 				DEVELOPMENT_ASSET_PATHS = "\"Healio/Preview Content\"";
 				DEVELOPMENT_TEAM = 9NYCJV4J3K;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Healio/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -316,9 +630,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "Oleg-Yakushin.Healio";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -344,6 +662,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		8B70A15B2C2ACAD100A2FEAA /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImageSwiftUI.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.0.4;
+			};
+		};
+		8B70A15E2C2ACB1C00A2FEAA /* XCRemoteSwiftPackageReference "lottie-spm" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/airbnb/lottie-spm.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.4.3;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		8B70A15C2C2ACAD100A2FEAA /* SDWebImageSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8B70A15B2C2ACAD100A2FEAA /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */;
+			productName = SDWebImageSwiftUI;
+		};
+		8B70A15F2C2ACB1C00A2FEAA /* Lottie */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8B70A15E2C2ACB1C00A2FEAA /* XCRemoteSwiftPackageReference "lottie-spm" */;
+			productName = Lottie;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 8B70A12C2C2AC79F00A2FEAA /* Project object */;
 }

@@ -8,17 +8,25 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State private var showWelcomeView = false
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        Group {
+            if showWelcomeView {
+                WelcomeView()
+            } else {
+                HelloView()
+            }
         }
-        .padding()
+        .onAppear {
+            DispatchQueue.main.asyncAfter(deadline: .now() + 3) {
+                withAnimation {
+                    showWelcomeView = true
+                }
+            }
+        }
     }
 }
-
 #Preview {
     ContentView()
 }
