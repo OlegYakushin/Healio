@@ -13,7 +13,10 @@ struct EachSkinView: View {
     var body: some View {
         
         RoundedRectangle(cornerRadius: 20 * sizeScreen())
-            .stroke(Color("yellowButton"), lineWidth: 2  * sizeScreen())
+            .stroke(LinearGradient(gradient: Gradient(colors: [Color("yellowOne"), Color("yellowOne").opacity(0)]),
+                                   startPoint: .topLeading,
+                                   endPoint: .bottomTrailing),
+                    lineWidth: 2 * sizeScreen())
         .frame(width: 260 * sizeScreen(), height: 141 * sizeScreen())
         .background(Color.white.cornerRadius(20 * sizeScreen()))
         .overlay(
@@ -40,6 +43,7 @@ struct EachSkinView: View {
                             .foregroundColor(.black)
                             .font(.custom("AveriaSerifLibre-Light", size: 26  * sizeScreen()))
                             .kerning(-1.2)
+                            .multilineTextAlignment(.leading)
                         
                         Spacer()
                     }

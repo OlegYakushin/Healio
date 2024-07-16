@@ -1,14 +1,14 @@
 //
-//  EachLikedView.swift
+//  EachLikedAffirmayionView.swift
 //  Healio
 //
-//  Created by Oleg Yakushin on 6/30/24.
+//  Created by Oleg Yakushin on 7/15/24.
 //
 
 import SwiftUI
 
-struct EachLikedView: View {
-    var name: String
+struct EachLikedAffirmayionView: View {
+    var text: String
     @State private var isLiked = false
     var body: some View {
         RoundedRectangle(cornerRadius: 20 * sizeScreen())
@@ -16,7 +16,7 @@ struct EachLikedView: View {
                                    startPoint: .topLeading,
                                    endPoint: .bottomTrailing),
                     lineWidth: 2 * sizeScreen())
-        .frame(width: 343 * sizeScreen(), height: 94 * sizeScreen())
+        .frame(width: 343 * sizeScreen(), height: 70 * sizeScreen())
         .background(Color.white.cornerRadius(20 * sizeScreen()))
         .overlay(
             ZStack {
@@ -30,31 +30,27 @@ struct EachLikedView: View {
                                 }
                             }
                     }
-                    Spacer()
+                  
                 }
                 .padding(10  * sizeScreen())
-                VStack {
-                    HStack{
-                        Text(name)
-                            .foregroundColor(.black)
-                            .font(.custom("AveriaSerifLibre-Light", size: 22  * sizeScreen()))
-                            .kerning(-1.2)
-                        Spacer()
+                HStack {
+                        HStack{
+                            Text(text)
+                                .foregroundColor(Color("fontDark"))
+                                .font(.custom("AvertaDemoPE-Regular", size: 16  * sizeScreen()))
+                                .kerning(-1.0 * sizeScreen())
+                            Spacer()
+                        
                     }
-                    HStack {
-                    Text("Not accepting the self. Despise of\nthe self.")
-                        .foregroundColor(.black)
-                        .font(.custom("AvertaDemoPE-Regular", size: 16  * sizeScreen()))
-                        .kerning(-1.2)
-                    Spacer()
+                    .padding(.horizontal, 5  * sizeScreen())
                 }
-                }
-                .padding(.horizontal, 20  * sizeScreen())
+                .padding(10  * sizeScreen())
             }
                 .padding(1)
         )
     }
 }
+
 #Preview {
-    EachLikedView(name: "Lower back")
+    EachLikedAffirmayionView(text: "I allow my mind to be at peace.")
 }

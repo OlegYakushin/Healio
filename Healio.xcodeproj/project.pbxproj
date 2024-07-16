@@ -17,6 +17,10 @@
 		8B217C8A2C32F60D009EEAC4 /* BegunView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B217C892C32F60D009EEAC4 /* BegunView.swift */; };
 		8B217C8C2C32F6F5009EEAC4 /* TryPremiumView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B217C8B2C32F6F5009EEAC4 /* TryPremiumView.swift */; };
 		8B217C972C33FA65009EEAC4 /* Healio2.gif in Resources */ = {isa = PBXBuildFile; fileRef = 8B217C962C33FA65009EEAC4 /* Healio2.gif */; };
+		8B66B3AA2C454CA4005DC241 /* EachLikedAffirmayionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B66B3A92C454CA4005DC241 /* EachLikedAffirmayionView.swift */; };
+		8B66B3AC2C454EC5005DC241 /* RemindersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B66B3AB2C454EC5005DC241 /* RemindersView.swift */; };
+		8B66B3AE2C455A7E005DC241 /* AffirmationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B66B3AD2C455A7E005DC241 /* AffirmationView.swift */; };
+		8B66B3B02C4561F9005DC241 /* AffirmationDescriptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B66B3AF2C4561F9005DC241 /* AffirmationDescriptionView.swift */; };
 		8B70A1382C2AC79F00A2FEAA /* HealioApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B70A1372C2AC79F00A2FEAA /* HealioApp.swift */; };
 		8B70A13A2C2AC79F00A2FEAA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B70A1392C2AC79F00A2FEAA /* ContentView.swift */; };
 		8B70A13C2C2AC7A100A2FEAA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B70A13B2C2AC7A100A2FEAA /* Assets.xcassets */; };
@@ -59,6 +63,7 @@
 		8B70A1962C2C23AF00A2FEAA /* FailureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B70A1952C2C23AF00A2FEAA /* FailureView.swift */; };
 		8B70A1982C2C23E400A2FEAA /* StressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B70A1972C2C23E400A2FEAA /* StressView.swift */; };
 		8B70A19B2C2C2A8200A2FEAA /* FunctionForResize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B70A19A2C2C2A8200A2FEAA /* FunctionForResize.swift */; };
+		8B736E982C36F3EF008D9ED5 /* EachLikedEmotionalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B736E972C36F3EF008D9ED5 /* EachLikedEmotionalView.swift */; };
 		8BA4BF4A2C2C7A9E00BDDD4E /* AvertaDemoPE-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8BA4BF492C2C7A9E00BDDD4E /* AvertaDemoPE-Regular.otf */; };
 		8BA4BF4C2C2C7B0300BDDD4E /* Averta-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8BA4BF4B2C2C7B0300BDDD4E /* Averta-Bold.ttf */; };
 		8BA4BF4E2C2D7CDC00BDDD4E /* EachEmotionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BA4BF4D2C2D7CDC00BDDD4E /* EachEmotionView.swift */; };
@@ -83,6 +88,10 @@
 		8B217C892C32F60D009EEAC4 /* BegunView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BegunView.swift; sourceTree = "<group>"; };
 		8B217C8B2C32F6F5009EEAC4 /* TryPremiumView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TryPremiumView.swift; sourceTree = "<group>"; };
 		8B217C962C33FA65009EEAC4 /* Healio2.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Healio2.gif; sourceTree = "<group>"; };
+		8B66B3A92C454CA4005DC241 /* EachLikedAffirmayionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EachLikedAffirmayionView.swift; sourceTree = "<group>"; };
+		8B66B3AB2C454EC5005DC241 /* RemindersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemindersView.swift; sourceTree = "<group>"; };
+		8B66B3AD2C455A7E005DC241 /* AffirmationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AffirmationView.swift; sourceTree = "<group>"; };
+		8B66B3AF2C4561F9005DC241 /* AffirmationDescriptionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AffirmationDescriptionView.swift; sourceTree = "<group>"; };
 		8B70A1342C2AC79F00A2FEAA /* Healio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Healio.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B70A1372C2AC79F00A2FEAA /* HealioApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealioApp.swift; sourceTree = "<group>"; };
 		8B70A1392C2AC79F00A2FEAA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -125,6 +134,7 @@
 		8B70A1952C2C23AF00A2FEAA /* FailureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FailureView.swift; sourceTree = "<group>"; };
 		8B70A1972C2C23E400A2FEAA /* StressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StressView.swift; sourceTree = "<group>"; };
 		8B70A19A2C2C2A8200A2FEAA /* FunctionForResize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunctionForResize.swift; sourceTree = "<group>"; };
+		8B736E972C36F3EF008D9ED5 /* EachLikedEmotionalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EachLikedEmotionalView.swift; sourceTree = "<group>"; };
 		8BA4BF492C2C7A9E00BDDD4E /* AvertaDemoPE-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AvertaDemoPE-Regular.otf"; sourceTree = "<group>"; };
 		8BA4BF4B2C2C7B0300BDDD4E /* Averta-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Averta-Bold.ttf"; sourceTree = "<group>"; };
 		8BA4BF4D2C2D7CDC00BDDD4E /* EachEmotionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EachEmotionView.swift; sourceTree = "<group>"; };
@@ -295,12 +305,17 @@
 			isa = PBXGroup;
 			children = (
 				8BA4BF4D2C2D7CDC00BDDD4E /* EachEmotionView.swift */,
+				8B736E972C36F3EF008D9ED5 /* EachLikedEmotionalView.swift */,
 				8BA4BFBB2C2EEB0700BDDD4E /* EachOvercomeEmotionView.swift */,
+				8B66B3A92C454CA4005DC241 /* EachLikedAffirmayionView.swift */,
 				8BA4BFB92C2EDE3400BDDD4E /* EachSkinView.swift */,
 				8BA4BF4F2C2D7DEE00BDDD4E /* TabView.swift */,
+				8B66B3AB2C454EC5005DC241 /* RemindersView.swift */,
 				8BA4BF512C2D7E5400BDDD4E /* HomeView.swift */,
 				8BA4BF552C2D7E8100BDDD4E /* LikedView.swift */,
 				8B217C742C318CD7009EEAC4 /* EachLikedView.swift */,
+				8B66B3AD2C455A7E005DC241 /* AffirmationView.swift */,
+				8B66B3AF2C4561F9005DC241 /* AffirmationDescriptionView.swift */,
 				8BA4BF572C2D7EA200BDDD4E /* SettingsView.swift */,
 				8BA4BF532C2D7E6F00BDDD4E /* SearchView.swift */,
 				8B217C722C3015C8009EEAC4 /* EachSettingView.swift */,
@@ -423,6 +438,7 @@
 				8B70A1682C2B17D700A2FEAA /* WelcomeNameView.swift in Sources */,
 				8B70A19B2C2C2A8200A2FEAA /* FunctionForResize.swift in Sources */,
 				8B70A1622C2ACC4300A2FEAA /* WelcomeView.swift in Sources */,
+				8B66B3AC2C454EC5005DC241 /* RemindersView.swift in Sources */,
 				8BA4BF4E2C2D7CDC00BDDD4E /* EachEmotionView.swift in Sources */,
 				8B70A1852C2B1F4A00A2FEAA /* IllnessView.swift in Sources */,
 				8B217C752C318CD7009EEAC4 /* EachLikedView.swift in Sources */,
@@ -430,6 +446,7 @@
 				8B217C732C3015C8009EEAC4 /* EachSettingView.swift in Sources */,
 				8B217C802C32E987009EEAC4 /* HowEmotionalView.swift in Sources */,
 				8B217C8C2C32F6F5009EEAC4 /* TryPremiumView.swift in Sources */,
+				8B736E982C36F3EF008D9ED5 /* EachLikedEmotionalView.swift in Sources */,
 				8B70A1922C2C235100A2FEAA /* SituationsView.swift in Sources */,
 				8BA4BFBA2C2EDE3400BDDD4E /* EachSkinView.swift in Sources */,
 				8BA4BF542C2D7E6F00BDDD4E /* SearchView.swift in Sources */,
@@ -442,9 +459,12 @@
 				8B217C842C32F2E5009EEAC4 /* ThisIsView.swift in Sources */,
 				8B70A15A2C2AC97200A2FEAA /* BackgroundView.swift in Sources */,
 				8B70A1382C2AC79F00A2FEAA /* HealioApp.swift in Sources */,
+				8B66B3AE2C455A7E005DC241 /* AffirmationView.swift in Sources */,
 				8B70A18C2C2C144E00A2FEAA /* Welcome3View.swift in Sources */,
+				8B66B3B02C4561F9005DC241 /* AffirmationDescriptionView.swift in Sources */,
 				8B70A1902C2C1B6000A2FEAA /* EmotionalView.swift in Sources */,
 				8B70A1962C2C23AF00A2FEAA /* FailureView.swift in Sources */,
+				8B66B3AA2C454CA4005DC241 /* EachLikedAffirmayionView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -576,7 +596,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 7;
+				CURRENT_PROJECT_VERSION = 11;
 				DEVELOPMENT_ASSET_PATHS = "\"Healio/Preview Content\"";
 				DEVELOPMENT_TEAM = 9NYCJV4J3K;
 				ENABLE_PREVIEWS = YES;
@@ -611,7 +631,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 7;
+				CURRENT_PROJECT_VERSION = 11;
 				DEVELOPMENT_ASSET_PATHS = "\"Healio/Preview Content\"";
 				DEVELOPMENT_TEAM = 9NYCJV4J3K;
 				ENABLE_PREVIEWS = YES;

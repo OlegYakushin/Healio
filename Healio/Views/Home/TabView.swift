@@ -16,11 +16,13 @@ struct TabsView: View {
                         Image(selectedTab == 1 ? "homeSelMenu" : "homeMenu")
                     }
                     .tag(1)
+                    .transition(.opacity)
                 SearchView()
                     .tabItem {
                         Image(selectedTab == 2 ? "searchSelMenu" : "searchMenu")
                     }
                     .tag(2)
+                    .transition(.opacity)
                 LikedView()
                     .tabItem {
                         Image(selectedTab == 3 ? "likedSelMenu" : "likedMenu")
@@ -32,6 +34,7 @@ struct TabsView: View {
                     }
                     .tag(4)
             }
+           
         }
     }
 

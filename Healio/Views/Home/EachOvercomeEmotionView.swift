@@ -12,7 +12,10 @@ struct EachOvercomeEmotionView: View {
     @State private var isLiked = false
     var body: some View {
         RoundedRectangle(cornerRadius: 20 * sizeScreen())
-            .stroke(Color("yellowButton"), lineWidth: 2  * sizeScreen())
+            .stroke(LinearGradient(gradient: Gradient(colors: [Color("yellowOne"), Color("yellowOne").opacity(0)]),
+                                   startPoint: .topLeading,
+                                   endPoint: .bottomTrailing),
+                    lineWidth: 2 * sizeScreen())
         .frame(width: 296 * sizeScreen(), height: 274 * sizeScreen())
         .background(Color.white.cornerRadius(20 * sizeScreen()))
         .overlay(

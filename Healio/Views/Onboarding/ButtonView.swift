@@ -11,7 +11,10 @@ struct ButtonView: View {
     var name:String
     var body: some View {
         RoundedRectangle(cornerRadius: 40  * sizeScreen())
-            .stroke(Color("yellowButton"), lineWidth: 2  * sizeScreen())
+            .stroke(LinearGradient(gradient: Gradient(colors: [Color("yellowTwo"), Color("yellowTree")]),
+                                   startPoint: .topLeading,
+                                   endPoint: .bottomTrailing),
+                    lineWidth: 2 * sizeScreen())
             .frame(width: 311  * sizeScreen(), height: 62  * sizeScreen())
             .background(Color("buttonBrown").cornerRadius(40  * sizeScreen()))
             .overlay(
