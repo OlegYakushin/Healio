@@ -6,10 +6,15 @@
 //
 
 import SwiftUI
+import Lottie
+import StoreKit
 
 struct HomeView: View {
-    @State private var emotions = ["Happiness", "Inner peace", "Gratitude", "Be present", "Excitement", "Think positive", "Confidence", "Self love", "Body positivity"]
-    @State private var overcomeEmotions = ["Anger", "Fear", "Grief and sadness", "Guilt and shame", "Resentment", "Loneliness", "Stress", "Self love", "Body positivity"]
+    @StateObject private var viewModel = DiseaseViewModel()
+    @StateObject private var categoryViewModel = CategoryViewModel()
+    @StateObject private var categoryModel = CategoryOvercomeViewModel()
+    @State private var isShowing = false
+    @State private var showShareFeedback = true
     init() {
         let appear = UINavigationBarAppearance()
 
@@ -29,170 +34,112 @@ struct HomeView: View {
         ZStack {
             BackgroundView()
             ScrollView(showsIndicators: false) {
+                
                 VStack(alignment: .leading, spacing: 20  * sizeScreen()) {
-                //    Text("Explore")
-                //        .font(.custom("AveriaSerifLibre-Light", size: 40  * sizeScreen()))
-                //        .foregroundColor(.black)
-                //        .padding(.bottom, 40 * sizeScreen())
-                //        .padding(.leading, 25 * sizeScreen())
-                    Text("Cultivate positive emotions")
-                        .font(.custom("Averta-Semibold", size: 18  * sizeScreen()))
-                        .foregroundColor(Color("fontDark"))
-                        .padding(.leading, 25 * sizeScreen())
-                    
-                    ScrollView(.horizontal, showsIndicators: false) {
-                        HStack(spacing: 16 * sizeScreen()) {
-                            ForEach(emotions, id: \.self) { emotion in
-                                NavigationLink(destination: AffirmationView(name: emotion).navigationBarBackButtonHidden()) {
-                                    EachEmotionView(name: emotion)
+                    HStack{
+                        Spacer()
+                        LottieView(animation: .named("Home_header"))
+                            .playing(loopMode: .playOnce)
+                            .frame(width: 375  * sizeScreen(), height: 184  * sizeScreen())
+                            
+                    }
+                    .offset(y: -150 * sizeScreen())
+                    .padding(.bottom, -184 * sizeScreen())
+                    if let categoryData = categoryViewModel.categoryData {
+                        Text(categoryData.category)
+                            .font(.custom("Averta-Semibold", size: 18 * sizeScreen()))
+                            .foregroundColor(Color("fontDark"))
+                            .padding(.leading, 25 * sizeScreen())
+                        
+                        ScrollView(.horizontal, showsIndicators: false) {
+                            HStack(spacing: 16 * sizeScreen()) {
+                                ForEach(categoryData.subcategories, id: \.self) { subcategory in
+                                    NavigationLink(destination: AffirmationView(name: subcategory).navigationBarBackButtonHidden()) {
+                                        EachEmotionView(name: subcategory)
+                                    }
                                 }
-                                
+                            }
+                            .padding(.vertical, 1)
+                            .padding(.leading, 25 * sizeScreen())
+                        }
+                    }
+                   
+                    let tags = Array(viewModel.groupedByTags().keys)
+                    ForEach(tags.indices, id: \.self) { index in
+                        let tag = tags[index]
+                        VStack(alignment: .leading) {
+                            Text(tag)
+                                .font(.custom("Averta-Semibold", size: 18 * sizeScreen()))
+                                .foregroundColor(Color("fontDark"))
+                                .padding(.leading, 25 * sizeScreen())
+                            
+                            ScrollView(.horizontal, showsIndicators: false) {
+                                HStack(spacing: 16 * sizeScreen()) {
+                                    ForEach(viewModel.groupedByTags()[tag] ?? []) { diseaseData in
+                                        NavigationLink(destination: AffirmationView(name: diseaseData.disease).navigationBarBackButtonHidden()) {
+                                            EachSkinView(name: diseaseData.disease, problemcause: diseaseData.problemCause)
+                                        }
+                                    }
+                                }
+                                .padding(.vertical, 5)
+                                .padding(.leading, 25 * sizeScreen())
                             }
                             
-                        }
-                        .padding(.vertical, 1)
-                        .padding(.leading, 25 * sizeScreen())
-                    }
-                    Text("Skin")
-                        .font(.custom("Averta-Semibold", size: 18  * sizeScreen()))
-                        .foregroundColor(Color("fontDark"))
-                        .padding(.leading, 25 * sizeScreen())
-                    
-                    ScrollView(.horizontal, showsIndicators: false) {
-                        HStack(spacing: 16 * sizeScreen()) {
-                            NavigationLink(destination: AffirmationView(name: "Colds (Upper-respiratory Illness)").navigationBarBackButtonHidden()) {
-                                EachSkinView(name: "")
-                            }
-                           
-                            NavigationLink(destination: AffirmationView(name: "Colds (Upper-respiratory Illness)").navigationBarBackButtonHidden()) {
-                                EachSkinView(name: "")
-                            }
-                            NavigationLink(destination: AffirmationView(name: "Colds (Upper-respiratory Illness)").navigationBarBackButtonHidden()) {
-                                EachSkinView(name: "")
-                            }
-                            NavigationLink(destination: AffirmationView(name: "Colds (Upper-respiratory Illness)").navigationBarBackButtonHidden()) {
-                                EachSkinView(name: "")
-                            }
-                        }
-                        .padding(.vertical, 5)
-                        .padding(.leading, 25 * sizeScreen())
-                    }
-                    Text("Female problems")
-                        .font(.custom("Averta-Semibold", size: 18  * sizeScreen()))
-                        .foregroundColor(Color("fontDark"))
-                        .padding(.leading, 25 * sizeScreen())
-                    
-                    
-                    ScrollView(.horizontal, showsIndicators: false) {
-                        HStack(spacing: 16 * sizeScreen()) {
-                            NavigationLink(destination: AffirmationView(name: "Colds (Upper-respiratory Illness)").navigationBarBackButtonHidden()) {
-                                EachSkinView(name: "")
-                            }
-                                NavigationLink(destination: AffirmationView(name: "Colds (Upper-respiratory Illness)").navigationBarBackButtonHidden()) {
-                                    EachSkinView(name: "")
-                                }
-                                    NavigationLink(destination: AffirmationView(name: "Colds (Upper-respiratory Illness)").navigationBarBackButtonHidden()) {
-                                        EachSkinView(name: "")
+                            if index == 1 {
+                                if let categoryData = categoryModel.categoryData {
+                                    Text(categoryData.category)
+                                        .font(.custom("Averta-Semibold", size: 18 * sizeScreen()))
+                                        .foregroundColor(Color("fontDark"))
+                                        .padding(25 * sizeScreen())
+                                    
+                                    ScrollView(.horizontal, showsIndicators: false) {
+                                                  HStack(spacing: 16 * sizeScreen()) {
+                                                      ForEach(categoryData.subcategories, id: \.name) { subcategory in
+                                                          NavigationLink(destination: AffirmationView(name: subcategory.name).navigationBarBackButtonHidden(true)) {
+                                                              EachOvercomeEmotionView(name: subcategory.name, description: subcategory.description)
+                                                          }
+                                                      }
+                                                  
+                                              }
+                                        .padding(.vertical, 1)
+                                        .padding(.leading, 25 * sizeScreen())
                                     }
-                                        NavigationLink(destination: AffirmationView(name: "Colds (Upper-respiratory Illness)").navigationBarBackButtonHidden()) {
-                                            EachSkinView(name: "")
+                                }
+                                    Image("shareFeedback")
+                                        .resizable()
+                                        .frame(width: 327 * sizeScreen(), height: 128 * sizeScreen())
+                                        .padding(.leading, 25 * sizeScreen())
+                                        .onTapGesture {
+                                            if let scene = UIApplication.shared.connectedScenes.first as? UIWindowScene {
+                                                SKStoreReviewController.requestReview(in: scene)
+                                            }
                                         }
-                        }
-                        .padding(.vertical, 5)
-                        .padding(.leading, 25 * sizeScreen())
-                    }
-                    Image("shareFeedback")
-                        .resizable()
-                        .frame(width: 327 * sizeScreen(), height: 128 * sizeScreen())
-                        .padding(.leading, 25 * sizeScreen())
-                    Text("Overcome repressed emotions")
-                        .font(.custom("Averta-Semibold", size: 18  * sizeScreen()))
-                        .foregroundColor(Color("fontDark"))
-                        .padding(.leading, 25 * sizeScreen())
-                    ScrollView(.horizontal, showsIndicators: false) {
-                        HStack {
-                            ForEach(overcomeEmotions, id: \.self) { emotion in
-                                NavigationLink(destination: AffirmationView(name: emotion).navigationBarBackButtonHidden()) {
-                                    EachOvercomeEmotionView(name: emotion)
+                                        .onAppear {
+                                            withAnimation(.easeInOut(duration: 0.7)) {
+                                                isShowing = true
+                                            }
+                                        }
+                                        .overlay(
+                                            ShineEffect(isShowing: isShowing)
+                                        )
+                                } 
+                            if index == 3 {
+                                    Image("tellMore")
+                                        .resizable()
+                                        .frame(width: 327 * sizeScreen(), height: 128 * sizeScreen())
+                                        .padding(.leading, 25 * sizeScreen())
+                                        .onTapGesture {
+                                            if let scene = UIApplication.shared.connectedScenes.first as? UIWindowScene {
+                                                SKStoreReviewController.requestReview(in: scene)
+                                            }
+                                        }
+                                       
                                 }
                                 
-                            }
+                            
                         }
-                        .padding(.vertical, 5)
-                        .padding(.leading, 25 * sizeScreen())
                     }
-                    Text("Upper torso")
-                        .font(.custom("Averta-Semibold", size: 18  * sizeScreen()))
-                        .foregroundColor(Color("fontDark"))
-                        .padding(.leading, 25 * sizeScreen())
-                    ScrollView(.horizontal, showsIndicators: false) {
-                        HStack(spacing: 16 * sizeScreen()) {
-                            NavigationLink(destination: AffirmationView(name: "Colds (Upper-respiratory Illness)").navigationBarBackButtonHidden()) {
-                                EachSkinView(name: "")
-                            }
-                                NavigationLink(destination: AffirmationView(name: "Colds (Upper-respiratory Illness)").navigationBarBackButtonHidden()) {
-                                    EachSkinView(name: "")
-                                }
-                                    NavigationLink(destination: AffirmationView(name: "Colds (Upper-respiratory Illness)").navigationBarBackButtonHidden()) {
-                                        EachSkinView(name: "")
-                                    }
-                                        NavigationLink(destination: AffirmationView(name: "Colds (Upper-respiratory Illness)").navigationBarBackButtonHidden()) {
-                                            EachSkinView(name: "")
-                                        }
-                        }
-                        .padding(.vertical, 5)
-                        .padding(.leading, 25 * sizeScreen())
-                    }
-                    Text("Upper torso")
-                        .font(.custom("Averta-Semibold", size: 18  * sizeScreen()))
-                        .foregroundColor(Color("fontDark"))
-                        .padding(.leading, 25 * sizeScreen())
-                    ScrollView(.horizontal, showsIndicators: false) {
-                        HStack(spacing: 16 * sizeScreen()) {
-                            NavigationLink(destination: AffirmationView(name: "Colds (Upper-respiratory Illness)").navigationBarBackButtonHidden()) {
-                                EachSkinView(name: "")
-                            }
-                                NavigationLink(destination: AffirmationView(name: "Colds (Upper-respiratory Illness)").navigationBarBackButtonHidden()) {
-                                    EachSkinView(name: "")
-                                }
-                                    NavigationLink(destination: AffirmationView(name: "Colds (Upper-respiratory Illness)").navigationBarBackButtonHidden()) {
-                                        EachSkinView(name: "")
-                                    }
-                                        NavigationLink(destination: AffirmationView(name: "Colds (Upper-respiratory Illness)").navigationBarBackButtonHidden()) {
-                                            EachSkinView(name: "")
-                                        }
-                        }
-                        .padding(.vertical, 5)
-                        .padding(.leading, 25 * sizeScreen())
-                    }
-                    
-                    Image("tellMore")
-                        .resizable()
-                        .frame(width: 327 * sizeScreen(), height: 128 * sizeScreen())
-                        .padding(.leading, 25 * sizeScreen())
-                    
-                    Text("Upper torso")
-                        .font(.custom("Averta-Semibold", size: 18  * sizeScreen()))
-                        .foregroundColor(Color("fontDark"))
-                        .padding(.leading, 25 * sizeScreen())
-                    ScrollView(.horizontal, showsIndicators: false) {
-                        HStack(spacing: 16 * sizeScreen()) {
-                            NavigationLink(destination: AffirmationView(name: "Colds (Upper-respiratory Illness)").navigationBarBackButtonHidden()) {
-                                EachSkinView(name: "")
-                            }
-                                NavigationLink(destination: AffirmationView(name: "Colds (Upper-respiratory Illness)").navigationBarBackButtonHidden()) {
-                                    EachSkinView(name: "")
-                                }
-                                    NavigationLink(destination: AffirmationView(name: "Colds (Upper-respiratory Illness)").navigationBarBackButtonHidden()) {
-                                        EachSkinView(name: "")
-                                    }
-                                        NavigationLink(destination: AffirmationView(name: "Colds (Upper-respiratory Illness)").navigationBarBackButtonHidden()) {
-                                            EachSkinView(name: "")
-                                        }
-                        }
-                        .padding(.vertical, 5)
-                        .padding(.leading, 25 * sizeScreen())
-                    }
+
                 }
                 }
             .navigationBarTitle(
@@ -208,4 +155,33 @@ struct HomeView: View {
 
 #Preview {
     HomeView()
+}
+
+struct ShineEffect: View {
+    let isShowing: Bool
+    
+    var body: some View {
+        Rectangle()
+            .fill(LinearGradient(
+                gradient: Gradient(colors: [
+                    Color.clear,
+                    Color.clear,
+                    Color.white.opacity(0.14),
+                    Color.white.opacity(0.1),
+                    Color.clear,
+                    Color.clear,
+                    Color.white.opacity(0.3),
+                    Color.clear
+                ]),
+                startPoint: .topLeading,
+                endPoint: .bottomTrailing
+            ))
+            .frame(width: 200, height: 250)
+            .mask(
+                Rectangle()
+                    .fill(Color.white)
+                    .offset(x: isShowing ? 200 : -200, y: isShowing ? 200 : -200)
+                    .animation(.easeInOut(duration: 0.7), value: isShowing)
+            )
+    }
 }

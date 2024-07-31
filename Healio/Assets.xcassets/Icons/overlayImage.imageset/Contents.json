@@ -1,17 +1,17 @@
 {
   "images" : [
     {
-      "filename" : "Frame 1321314864.png",
+      "filename" : "Resize Indicator.png",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
-      "filename" : "Frame 1321314864@2x.png",
+      "filename" : "Resize Indicator@2x.png",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
-      "filename" : "Frame 1321314864@3x.png",
+      "filename" : "Resize Indicator@3x.png",
       "idiom" : "universal",
       "scale" : "3x"
     }

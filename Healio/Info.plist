@@ -12,5 +12,9 @@
 		<string>Averta-Bold.ttf</string>
 		<string>TW-Averta-Semibold.ttf</string>
 	</array>
+	<key>UIBackgroundModes</key>
+	<array>
+		<string>remote-notification</string>
+	</array>
 </dict>
 </plist>

@@ -6,6 +6,8 @@
 //
 
 import SwiftUI
+import StoreKit
+
 
 struct SettingsView: View {
     init() {
@@ -32,15 +34,32 @@ struct SettingsView: View {
                             .font(.custom("Averta-Semibold", size: 18  * sizeScreen()))
                             .kerning(-1.2)
                             .foregroundColor(Color("fontDark"))
-                        EachSettingView(image: "remindersImage", text: "Reminders")
+                        NavigationLink(destination:RemindersView().navigationBarBackButtonHidden()) {
+                            EachSettingView(image: "remindersImage", text: "Reminders")
+                        }
                         Text("Support us")
                             .font(.custom("Averta-Semibold", size: 18  * sizeScreen()))
                             .kerning(-1.2)
                             .foregroundColor(Color("fontDark"))
                         EachSettingView(image: "shareImage", text: "Share Healio")
                         EachSettingView(image: "rateImage", text: "Rate Healio on the App Store")
+                            .onTapGesture {                // Action to trigger App Store rating
+                                                  if let scene = UIApplication.shared.connectedScenes.first as? UIWindowScene {
+                                                      SKStoreReviewController.requestReview(in: scene)
+                                                  }
+                                              }
                         EachSettingView(image: "suggestImage", text: "Suggest an improvement")
+                            .onTapGesture {
+                               
+                                        UIApplication.shared.open(URL(string: "mailto: example@gmail.com")!, options: [:], completionHandler: nil)
+                                    
+                            }
                         EachSettingView(image: "reportImage", text: "Report a bug")
+                            .onTapGesture {
+                               
+                                        UIApplication.shared.open(URL(string: "mailto: example@gmail.com")!, options: [:], completionHandler: nil)
+                                    
+                            }
                     }
                 }
                 .navigationBarTitle(

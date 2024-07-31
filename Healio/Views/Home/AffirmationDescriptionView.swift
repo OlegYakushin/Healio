@@ -8,7 +8,8 @@
 import SwiftUI
 
 struct AffirmationDescriptionView: View {
-    @State private var isLiked = false
+    var description: [String]
+   @Binding var isLiked: Bool
     var body: some View {
         ZStack {
        Color("backgroundColor")
@@ -24,59 +25,33 @@ struct AffirmationDescriptionView: View {
                         }
                 }
                 Text("Thought patterns and feelings that can cause this disease:")
-                HStack {
-                    Image("pointImage")
-                        .resizable()
-                        .frame(width: 20 * sizeScreen(),
-                               height: 20 * sizeScreen())
-                    Text("Too much going on at once")
-                        .font(.custom("Avenir-Roman", size: 17  * sizeScreen()))
-                        .foregroundColor(Color("fontDark"))
-                        .multilineTextAlignment(.leading)
-                        .padding(.horizontal, 20  * sizeScreen())
-                }
-                .frame(width: 311 * sizeScreen(), alignment: .leading)
-                HStack {
-                    Image("pointImage")
-                        .resizable()
-                        .frame(width: 20 * sizeScreen(),
-                               height: 20 * sizeScreen())
-                    Text("Mental confusion, disorder")
-                        .font(.custom("Avenir-Roman", size: 17  * sizeScreen()))
-                        .foregroundColor(Color("fontDark"))
-                        .multilineTextAlignment(.leading)
-                        .padding(.horizontal, 20  * sizeScreen())
-                }
-                .frame(width: 311 * sizeScreen(), alignment: .leading)
-                HStack {
-                    Image("pointImage")
-                        .resizable()
-                        .frame(width: 20 * sizeScreen(),
-                               height: 20 * sizeScreen())
-                    Text("Small hurts")
-                        .font(.custom("Avenir-Roman", size: 17  * sizeScreen()))
-                        .foregroundColor(Color("fontDark"))
-                        .multilineTextAlignment(.leading)
-                        .padding(.horizontal, 20  * sizeScreen())
-                }
-                .frame(width: 311 * sizeScreen(), alignment: .leading)
-                HStack {
-                    Image("pointImage")
-                        .resizable()
-                        .frame(width: 20 * sizeScreen(),
-                               height: 20 * sizeScreen())
-                    Text("The believe that you always get a cold")
-                        .font(.custom("Avenir-Roman", size: 17  * sizeScreen()))
-                        .foregroundColor(Color("fontDark"))
-                        .multilineTextAlignment(.leading)
-                        .padding(.horizontal, 20  * sizeScreen())
-                }
-                .frame(width: 311 * sizeScreen(), alignment: .leading)
-            }
+                VStack(alignment: .leading, spacing: 10 * sizeScreen()) {
+                                ForEach(description, id: \.self) { item in
+                                    HStack {
+                                        Image("pointImage")
+                                            .resizable()
+                                            .frame(width: 20 * sizeScreen(), height: 20 * sizeScreen())
+                                        Text(item)
+                                            .font(.custom("Avenir-Roman", size: 17 * sizeScreen()))
+                                            .foregroundColor(Color("fontDark"))
+                                            .multilineTextAlignment(.leading)
+                                            .padding(.horizontal, 20 * sizeScreen())
+                                    }
+                                    .frame(width: 311 * sizeScreen(), alignment: .leading)
+                                }
+                            }
+                            .padding()
+                        }
+            
         }
     }
 }
 
 #Preview {
-    AffirmationDescriptionView()
+    AffirmationDescriptionView(description: [
+        "Too much going on at once",
+        "Mental confusion, disorder",
+        "Small hurts",
+        "The belief that you always get a cold"
+    ], isLiked: .constant(false))
 }

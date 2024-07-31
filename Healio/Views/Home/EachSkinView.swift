@@ -9,6 +9,7 @@ import SwiftUI
 
 struct EachSkinView: View {
     var name: String
+    var problemcause: String
     @State private var isLiked = false
     var body: some View {
         
@@ -39,7 +40,7 @@ struct EachSkinView: View {
                 VStack(spacing: 5) {
               
                     HStack{
-                        Text("Colds (Upper-respiratory Illness)")
+                        Text(name)
                             .foregroundColor(.black)
                             .font(.custom("AveriaSerifLibre-Light", size: 26  * sizeScreen()))
                             .kerning(-1.2)
@@ -49,12 +50,14 @@ struct EachSkinView: View {
                     }
                     .frame(width: 226 * sizeScreen(), height: 58 * sizeScreen())
                     HStack{
-                        Text("Not accepting the self. Despise of the self.")
+                        Text(problemcause)
                             .foregroundColor(Color("fontDark"))
                             .font(.custom("AvertaDemoPE-Regular", size: 16  * sizeScreen()))
+                            .multilineTextAlignment(.leading)
+                            .frame(width: 180 * sizeScreen(), height: 50 * sizeScreen())
                         Spacer()
                     }
-                    .frame(width: 226 * sizeScreen(), height: 58 * sizeScreen())
+                   
                 }
                 .padding(25  * sizeScreen())
             }
@@ -74,5 +77,5 @@ struct EachSkinView: View {
 }
 
 #Preview {
-    EachSkinView(name: "")
+    EachSkinView(name: "", problemcause: "Can contribute to: respiratory problems, heart conditions, depression and anxiety.")
 }

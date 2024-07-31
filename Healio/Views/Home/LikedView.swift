@@ -9,6 +9,7 @@ import SwiftUI
 
 struct LikedView: View {
     @State private var selected = "Health issues"
+    @ObservedObject var likedItemsViewModel = LikedItemsViewModel()
     init() {
         let appear = UINavigationBarAppearance()
 
@@ -103,4 +104,22 @@ struct LikedView: View {
 
 #Preview {
     LikedView()
+}
+
+
+struct LikedItem: Identifiable {
+    let id = UUID()
+    let category: String
+    let name: String
+}
+
+
+class LikedItemsViewModel: ObservableObject {
+    @Published var likedItems: [LikedItem] = []
+    
+    // Function to add a liked item
+    func addLikedItem(category: String, name: String) {
+        let newItem = LikedItem(category: category, name: name)
+        likedItems.append(newItem)
+    }
 }

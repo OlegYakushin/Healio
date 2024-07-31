@@ -14,7 +14,7 @@ struct HowEmotionalView: View {
             BackgroundView()
             VStack {
                 LottieView(animation: .named("Onboarding_tree"))
-                    .playing(loopMode: .loop)
+                    .playing(loopMode: .playOnce)
                     .frame(width: 305 * sizeScreen(),
                            height: 285 * sizeScreen())
                 Text("How emotional\nstress affects you")

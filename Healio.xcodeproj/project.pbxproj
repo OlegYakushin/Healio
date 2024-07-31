@@ -64,6 +64,22 @@
 		8B70A1982C2C23E400A2FEAA /* StressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B70A1972C2C23E400A2FEAA /* StressView.swift */; };
 		8B70A19B2C2C2A8200A2FEAA /* FunctionForResize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B70A19A2C2C2A8200A2FEAA /* FunctionForResize.swift */; };
 		8B736E982C36F3EF008D9ED5 /* EachLikedEmotionalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B736E972C36F3EF008D9ED5 /* EachLikedEmotionalView.swift */; };
+		8B9A615F2C513C7400F7273B /* SwitchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B9A615E2C513C7400F7273B /* SwitchView.swift */; };
+		8B9A61632C57A8D900F7273B /* Dandelion.mov in Resources */ = {isa = PBXBuildFile; fileRef = 8B9A61622C57A8D900F7273B /* Dandelion.mov */; };
+		8B9A61652C57AC1200F7273B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8B9A61642C57AC1200F7273B /* GoogleService-Info.plist */; };
+		8B9A61682C57ACB800F7273B /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 8B9A61672C57ACB800F7273B /* FirebaseAnalytics */; };
+		8B9A616A2C57ACB800F7273B /* FirebaseAnalyticsOnDeviceConversion in Frameworks */ = {isa = PBXBuildFile; productRef = 8B9A61692C57ACB800F7273B /* FirebaseAnalyticsOnDeviceConversion */; };
+		8B9A616C2C57ACB800F7273B /* FirebaseAnalyticsSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 8B9A616B2C57ACB800F7273B /* FirebaseAnalyticsSwift */; };
+		8B9A616E2C57ACB800F7273B /* FirebaseAnalyticsWithoutAdIdSupport in Frameworks */ = {isa = PBXBuildFile; productRef = 8B9A616D2C57ACB800F7273B /* FirebaseAnalyticsWithoutAdIdSupport */; };
+		8B9A61702C57ACB800F7273B /* FirebaseAppCheck in Frameworks */ = {isa = PBXBuildFile; productRef = 8B9A616F2C57ACB800F7273B /* FirebaseAppCheck */; };
+		8B9A61722C5925A100F7273B /* Notification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B9A61712C5925A100F7273B /* Notification.swift */; };
+		8B9A61742C59262A00F7273B /* FirebaseMessaging in Frameworks */ = {isa = PBXBuildFile; productRef = 8B9A61732C59262A00F7273B /* FirebaseMessaging */; };
+		8B9A617A2C5A38D100F7273B /* Diseases_list_plus_home_row_tags.json in Resources */ = {isa = PBXBuildFile; fileRef = 8B9A61772C5A38D100F7273B /* Diseases_list_plus_home_row_tags.json */; };
+		8B9A617B2C5A38D100F7273B /* Row_overcome_repressed_emotions.json in Resources */ = {isa = PBXBuildFile; fileRef = 8B9A61782C5A38D100F7273B /* Row_overcome_repressed_emotions.json */; };
+		8B9A617C2C5A38D100F7273B /* Row_cultivate_positive_emotions.json in Resources */ = {isa = PBXBuildFile; fileRef = 8B9A61792C5A38D100F7273B /* Row_cultivate_positive_emotions.json */; };
+		8B9A617E2C5A40BD00F7273B /* DiseaseData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B9A617D2C5A40BD00F7273B /* DiseaseData.swift */; };
+		8B9A61802C5A5CB500F7273B /* CategoryData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B9A617F2C5A5CB500F7273B /* CategoryData.swift */; };
+		8B9A61822C5A73CA00F7273B /* СategoryOvercomeData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B9A61812C5A73CA00F7273B /* СategoryOvercomeData.swift */; };
 		8BA4BF4A2C2C7A9E00BDDD4E /* AvertaDemoPE-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8BA4BF492C2C7A9E00BDDD4E /* AvertaDemoPE-Regular.otf */; };
 		8BA4BF4C2C2C7B0300BDDD4E /* Averta-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8BA4BF4B2C2C7B0300BDDD4E /* Averta-Bold.ttf */; };
 		8BA4BF4E2C2D7CDC00BDDD4E /* EachEmotionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BA4BF4D2C2D7CDC00BDDD4E /* EachEmotionView.swift */; };
@@ -135,6 +151,17 @@
 		8B70A1972C2C23E400A2FEAA /* StressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StressView.swift; sourceTree = "<group>"; };
 		8B70A19A2C2C2A8200A2FEAA /* FunctionForResize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunctionForResize.swift; sourceTree = "<group>"; };
 		8B736E972C36F3EF008D9ED5 /* EachLikedEmotionalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EachLikedEmotionalView.swift; sourceTree = "<group>"; };
+		8B9A615E2C513C7400F7273B /* SwitchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitchView.swift; sourceTree = "<group>"; };
+		8B9A61622C57A8D900F7273B /* Dandelion.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = Dandelion.mov; sourceTree = "<group>"; };
+		8B9A61642C57AC1200F7273B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		8B9A61712C5925A100F7273B /* Notification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notification.swift; sourceTree = "<group>"; };
+		8B9A61752C5926BA00F7273B /* Healio.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Healio.entitlements; sourceTree = "<group>"; };
+		8B9A61772C5A38D100F7273B /* Diseases_list_plus_home_row_tags.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Diseases_list_plus_home_row_tags.json; sourceTree = "<group>"; };
+		8B9A61782C5A38D100F7273B /* Row_overcome_repressed_emotions.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Row_overcome_repressed_emotions.json; sourceTree = "<group>"; };
+		8B9A61792C5A38D100F7273B /* Row_cultivate_positive_emotions.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Row_cultivate_positive_emotions.json; sourceTree = "<group>"; };
+		8B9A617D2C5A40BD00F7273B /* DiseaseData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiseaseData.swift; sourceTree = "<group>"; };
+		8B9A617F2C5A5CB500F7273B /* CategoryData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryData.swift; sourceTree = "<group>"; };
+		8B9A61812C5A73CA00F7273B /* СategoryOvercomeData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "СategoryOvercomeData.swift"; sourceTree = "<group>"; };
 		8BA4BF492C2C7A9E00BDDD4E /* AvertaDemoPE-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AvertaDemoPE-Regular.otf"; sourceTree = "<group>"; };
 		8BA4BF4B2C2C7B0300BDDD4E /* Averta-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Averta-Bold.ttf"; sourceTree = "<group>"; };
 		8BA4BF4D2C2D7CDC00BDDD4E /* EachEmotionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EachEmotionView.swift; sourceTree = "<group>"; };
@@ -153,8 +180,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B9A61742C59262A00F7273B /* FirebaseMessaging in Frameworks */,
 				8B70A15D2C2ACAD100A2FEAA /* SDWebImageSwiftUI in Frameworks */,
+				8B9A616E2C57ACB800F7273B /* FirebaseAnalyticsWithoutAdIdSupport in Frameworks */,
 				8B70A1602C2ACB1C00A2FEAA /* Lottie in Frameworks */,
+				8B9A61682C57ACB800F7273B /* FirebaseAnalytics in Frameworks */,
+				8B9A61702C57ACB800F7273B /* FirebaseAppCheck in Frameworks */,
+				8B9A616A2C57ACB800F7273B /* FirebaseAnalyticsOnDeviceConversion in Frameworks */,
+				8B9A616C2C57ACB800F7273B /* FirebaseAnalyticsSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -180,11 +213,15 @@
 		8B70A1362C2AC79F00A2FEAA /* Healio */ = {
 			isa = PBXGroup;
 			children = (
+				8B9A61762C5A38B900F7273B /* Data */,
+				8B9A61752C5926BA00F7273B /* Healio.entitlements */,
 				8B70A1992C2C287D00A2FEAA /* Functions */,
 				8B70A1552C2AC92600A2FEAA /* Views */,
 				8B70A1542C2AC8F400A2FEAA /* Info.plist */,
+				8B9A61642C57AC1200F7273B /* GoogleService-Info.plist */,
 				8B70A1452C2AC85500A2FEAA /* Fonts */,
 				8B217C962C33FA65009EEAC4 /* Healio2.gif */,
+				8B9A61622C57A8D900F7273B /* Dandelion.mov */,
 				8B70A1372C2AC79F00A2FEAA /* HealioApp.swift */,
 				8B70A1392C2AC79F00A2FEAA /* ContentView.swift */,
 				8B70A13B2C2AC7A100A2FEAA /* Assets.xcassets */,
@@ -227,6 +264,7 @@
 		8B70A1552C2AC92600A2FEAA /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				8B9A61612C53EE8D00F7273B /* Models */,
 				8BA4BF482C2C79FD00BDDD4E /* Home */,
 				8B70A1562C2AC92C00A2FEAA /* Onboarding */,
 			);
@@ -297,8 +335,29 @@
 			isa = PBXGroup;
 			children = (
 				8B70A19A2C2C2A8200A2FEAA /* FunctionForResize.swift */,
+				8B9A61712C5925A100F7273B /* Notification.swift */,
 			);
 			path = Functions;
+			sourceTree = "<group>";
+		};
+		8B9A61612C53EE8D00F7273B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				8B9A617D2C5A40BD00F7273B /* DiseaseData.swift */,
+				8B9A617F2C5A5CB500F7273B /* CategoryData.swift */,
+				8B9A61812C5A73CA00F7273B /* СategoryOvercomeData.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		8B9A61762C5A38B900F7273B /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				8B9A61772C5A38D100F7273B /* Diseases_list_plus_home_row_tags.json */,
+				8B9A61792C5A38D100F7273B /* Row_cultivate_positive_emotions.json */,
+				8B9A61782C5A38D100F7273B /* Row_overcome_repressed_emotions.json */,
+			);
+			path = Data;
 			sourceTree = "<group>";
 		};
 		8BA4BF482C2C79FD00BDDD4E /* Home */ = {
@@ -308,6 +367,7 @@
 				8B736E972C36F3EF008D9ED5 /* EachLikedEmotionalView.swift */,
 				8BA4BFBB2C2EEB0700BDDD4E /* EachOvercomeEmotionView.swift */,
 				8B66B3A92C454CA4005DC241 /* EachLikedAffirmayionView.swift */,
+				8B9A615E2C513C7400F7273B /* SwitchView.swift */,
 				8BA4BFB92C2EDE3400BDDD4E /* EachSkinView.swift */,
 				8BA4BF4F2C2D7DEE00BDDD4E /* TabView.swift */,
 				8B66B3AB2C454EC5005DC241 /* RemindersView.swift */,
@@ -342,6 +402,12 @@
 			packageProductDependencies = (
 				8B70A15C2C2ACAD100A2FEAA /* SDWebImageSwiftUI */,
 				8B70A15F2C2ACB1C00A2FEAA /* Lottie */,
+				8B9A61672C57ACB800F7273B /* FirebaseAnalytics */,
+				8B9A61692C57ACB800F7273B /* FirebaseAnalyticsOnDeviceConversion */,
+				8B9A616B2C57ACB800F7273B /* FirebaseAnalyticsSwift */,
+				8B9A616D2C57ACB800F7273B /* FirebaseAnalyticsWithoutAdIdSupport */,
+				8B9A616F2C57ACB800F7273B /* FirebaseAppCheck */,
+				8B9A61732C59262A00F7273B /* FirebaseMessaging */,
 			);
 			productName = Healio;
 			productReference = 8B70A1342C2AC79F00A2FEAA /* Healio.app */;
@@ -374,6 +440,7 @@
 			packageReferences = (
 				8B70A15B2C2ACAD100A2FEAA /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */,
 				8B70A15E2C2ACB1C00A2FEAA /* XCRemoteSwiftPackageReference "lottie-spm" */,
+				8B9A61662C57ACB700F7273B /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
 			);
 			productRefGroup = 8B70A1352C2AC79F00A2FEAA /* Products */;
 			projectDirPath = "";
@@ -390,6 +457,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8B70A1502C2AC8BB00A2FEAA /* AveriaSerifLibre-BoldItalic.ttf in Resources */,
+				8B9A617A2C5A38D100F7273B /* Diseases_list_plus_home_row_tags.json in Resources */,
 				8B70A17D2C2B1E7500A2FEAA /* Avenir-BookOblique.otf in Resources */,
 				8B70A1522C2AC8BB00A2FEAA /* AveriaSerifLibre-Italic.ttf in Resources */,
 				8B70A1792C2B1E7500A2FEAA /* Avenir-Black.otf in Resources */,
@@ -400,6 +468,9 @@
 				8B70A18A2C2B221F00A2FEAA /* Averta-Regular.otf in Resources */,
 				8B70A1802C2B1E7500A2FEAA /* Avenir-Medium.otf in Resources */,
 				8BA4BFB82C2DC80300BDDD4E /* TW-Averta-Semibold.ttf in Resources */,
+				8B9A61652C57AC1200F7273B /* GoogleService-Info.plist in Resources */,
+				8B9A617C2C5A38D100F7273B /* Row_cultivate_positive_emotions.json in Resources */,
+				8B9A617B2C5A38D100F7273B /* Row_overcome_repressed_emotions.json in Resources */,
 				8B70A13F2C2AC7A100A2FEAA /* Preview Assets.xcassets in Resources */,
 				8B70A14D2C2AC8BB00A2FEAA /* AveriaSerifLibre-Light.ttf in Resources */,
 				8B70A17A2C2B1E7500A2FEAA /* Avenir-Roman.otf in Resources */,
@@ -408,6 +479,7 @@
 				8B70A1782C2B1E7500A2FEAA /* Avenir-Oblique.otf in Resources */,
 				8B70A1832C2B1E7500A2FEAA /* Avenir-HeavyOblique.otf in Resources */,
 				8BA4BF4C2C2C7B0300BDDD4E /* Averta-Bold.ttf in Resources */,
+				8B9A61632C57A8D900F7273B /* Dandelion.mov in Resources */,
 				8B70A1822C2B1E7500A2FEAA /* Avenir-LightOblique.otf in Resources */,
 				8B70A14F2C2AC8BB00A2FEAA /* AveriaSerifLibre-Bold.ttf in Resources */,
 				8B70A1512C2AC8BB00A2FEAA /* AveriaSerifLibre-LightItalic.ttf in Resources */,
@@ -425,6 +497,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8B70A18E2C2C14B400A2FEAA /* NameView.swift in Sources */,
+				8B9A61802C5A5CB500F7273B /* CategoryData.swift in Sources */,
 				8B217C882C32F4F7009EEAC4 /* PerosonaView.swift in Sources */,
 				8B70A16A2C2B198200A2FEAA /* EachDiseasesView.swift in Sources */,
 				8B70A1942C2C237C00A2FEAA /* GriefView.swift in Sources */,
@@ -456,12 +529,16 @@
 				8B70A13A2C2AC79F00A2FEAA /* ContentView.swift in Sources */,
 				8B70A1662C2ACDD000A2FEAA /* Welcome2View.swift in Sources */,
 				8B70A1982C2C23E400A2FEAA /* StressView.swift in Sources */,
+				8B9A617E2C5A40BD00F7273B /* DiseaseData.swift in Sources */,
 				8B217C842C32F2E5009EEAC4 /* ThisIsView.swift in Sources */,
+				8B9A61822C5A73CA00F7273B /* СategoryOvercomeData.swift in Sources */,
 				8B70A15A2C2AC97200A2FEAA /* BackgroundView.swift in Sources */,
 				8B70A1382C2AC79F00A2FEAA /* HealioApp.swift in Sources */,
 				8B66B3AE2C455A7E005DC241 /* AffirmationView.swift in Sources */,
 				8B70A18C2C2C144E00A2FEAA /* Welcome3View.swift in Sources */,
 				8B66B3B02C4561F9005DC241 /* AffirmationDescriptionView.swift in Sources */,
+				8B9A615F2C513C7400F7273B /* SwitchView.swift in Sources */,
+				8B9A61722C5925A100F7273B /* Notification.swift in Sources */,
 				8B70A1902C2C1B6000A2FEAA /* EmotionalView.swift in Sources */,
 				8B70A1962C2C23AF00A2FEAA /* FailureView.swift in Sources */,
 				8B66B3AA2C454CA4005DC241 /* EachLikedAffirmayionView.swift in Sources */,
@@ -595,8 +672,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Healio/Healio.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 11;
+				CURRENT_PROJECT_VERSION = 20;
 				DEVELOPMENT_ASSET_PATHS = "\"Healio/Preview Content\"";
 				DEVELOPMENT_TEAM = 9NYCJV4J3K;
 				ENABLE_PREVIEWS = YES;
@@ -630,8 +708,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Healio/Healio.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 11;
+				CURRENT_PROJECT_VERSION = 20;
 				DEVELOPMENT_ASSET_PATHS = "\"Healio/Preview Content\"";
 				DEVELOPMENT_TEAM = 9NYCJV4J3K;
 				ENABLE_PREVIEWS = YES;
@@ -700,6 +779,14 @@
 				minimumVersion = 4.4.3;
 			};
 		};
+		8B9A61662C57ACB700F7273B /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.29.0;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -712,6 +799,36 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 8B70A15E2C2ACB1C00A2FEAA /* XCRemoteSwiftPackageReference "lottie-spm" */;
 			productName = Lottie;
+		};
+		8B9A61672C57ACB800F7273B /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8B9A61662C57ACB700F7273B /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		8B9A61692C57ACB800F7273B /* FirebaseAnalyticsOnDeviceConversion */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8B9A61662C57ACB700F7273B /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalyticsOnDeviceConversion;
+		};
+		8B9A616B2C57ACB800F7273B /* FirebaseAnalyticsSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8B9A61662C57ACB700F7273B /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalyticsSwift;
+		};
+		8B9A616D2C57ACB800F7273B /* FirebaseAnalyticsWithoutAdIdSupport */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8B9A61662C57ACB700F7273B /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalyticsWithoutAdIdSupport;
+		};
+		8B9A616F2C57ACB800F7273B /* FirebaseAppCheck */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8B9A61662C57ACB700F7273B /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAppCheck;
+		};
+		8B9A61732C59262A00F7273B /* FirebaseMessaging */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8B9A61662C57ACB700F7273B /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseMessaging;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

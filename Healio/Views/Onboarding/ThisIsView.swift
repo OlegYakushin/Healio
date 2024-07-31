@@ -15,7 +15,7 @@ struct ThisIsView: View {
             VStack {
                // Onboarding_tree
                 LottieView(animation: .named("Onboarding_dondalion"))
-                    .playing(loopMode: .loop)
+                    .playing(loopMode: .playOnce)
                     .frame(width: 305 * sizeScreen(),
                            height: 285 * sizeScreen())
                 Text("This is how Helio\ncan help you")

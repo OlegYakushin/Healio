@@ -1,0 +1,33 @@
+{
+  "category": "Overcome repressed emotions",
+  "subcategories": [
+    {
+      "name": "Anger",
+      "description": "Can contribute to: hypertension, digestive issues, and liver problems."
+    },
+    {
+      "name": "Fear",
+      "description": "Can contribute to: adrenal fatigue, immune system suppression, urinary tract infections."
+    },
+    {
+      "name": "Grief and sadness",
+      "description": "Can contribute to: respiratory problems, heart conditions, depression and anxiety."
+    },
+    {
+      "name": "Guilt and shame",
+      "description": "Can contribute to: ulcers, IBS, and constipation."
+    },
+    {
+      "name": "Resentment",
+      "description": "Can contribute to: cancer, arthritis, joint pain, and chronic inflammation."
+    },
+    {
+      "name": "Loneliness",
+      "description": "Can contribute to: infections and chronic illnesses."
+    },
+    {
+      "name": "Stress",
+      "description": "Can contribute to: insomnia, digestive problems, cardiovascular diseases (hypertension, heart disease)."
+    }
+  ]
+}

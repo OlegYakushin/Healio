@@ -9,6 +9,7 @@ import SwiftUI
 
 struct EachOvercomeEmotionView: View {
     var name: String
+    var description: String
     @State private var isLiked = false
     var body: some View {
         RoundedRectangle(cornerRadius: 20 * sizeScreen())
@@ -50,13 +51,16 @@ struct EachOvercomeEmotionView: View {
                         Spacer()
                     }
                     HStack{
-                        Text("Can contribute to: hypertension, digestive issues, and liver problems.")
+                        Text(description)
                             .foregroundColor(Color("fontDark"))
                             .font(.custom("AvertaDemoPE-Regular", size: 16  * sizeScreen()))
                             .kerning(-1.2)
+                            .multilineTextAlignment(/*@START_MENU_TOKEN@*/.leading/*@END_MENU_TOKEN@*/)
+                         
                         
                         Spacer()
                     }
+                    .frame(width: 256 * sizeScreen(), height: 45 * sizeScreen())
                 }
                 .padding(.horizontal, 20  * sizeScreen())
                 .padding(.vertical, 15  * sizeScreen())
@@ -78,5 +82,5 @@ struct EachOvercomeEmotionView: View {
 }
 
 #Preview {
-    EachOvercomeEmotionView(name: "Grief and sadness")
+    EachOvercomeEmotionView(name: "Grief and sadness", description: "")
 }

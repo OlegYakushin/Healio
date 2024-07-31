@@ -1,0 +1,1790 @@
+[
+  {
+    "Disease": "Abscess",
+    "Problem Cause": "Dwelling on past hurts, insults, and vengeance.",
+    "Tags": [
+      "Skin"
+    ]
+  },
+  {
+    "Disease": "Acne",
+    "Problem Cause": "Self-rejection. Self-loathing.",
+    "Tags": [
+      "Skin"
+    ]
+  },
+  {
+    "Disease": "Athlete's foot",
+    "Problem Cause": "Frustration from lack of acceptance. Difficulty moving forward.",
+    "Tags": [
+      "Skin"
+    ]
+  },
+  {
+    "Disease": "Eczema",
+    "Problem Cause": "Overwhelming antagonism. Mental eruption.",
+    "Tags": [
+      "Skin"
+    ]
+  },
+  {
+    "Disease": "Pimples",
+    "Problem Cause": "Small outbursts of anger.",
+    "Tags": [
+      "Skin"
+    ]
+  },
+  {
+    "Disease": "Psoriasis",
+    "Problem Cause": "Fear of being hurt. Deadening the senses of the self. Refusal to accept responsibility for own feelings.",
+    "Tags": [
+      "Skin"
+    ]
+  },
+  {
+    "Disease": "Skin",
+    "Problem Cause": "Protects individuality. Anxiety, fear. Old, buried things. Feeling threatened.",
+    "Tags": [
+      "Skin"
+    ]
+  },
+  {
+    "Disease": "Skin Problems",
+    "Problem Cause": "Anxiety, fear. Old, buried guck. Feeling threatened.",
+    "Tags": [
+      "Skin"
+    ]
+  },
+  {
+    "Disease": "Vitiligo",
+    "Problem Cause": "Feeling completely outside of things. Not belonging. Not one of the group.",
+    "Tags": [
+      "Skin"
+    ]
+  },
+  {
+    "Disease": "Warts",
+    "Problem Cause": "Little expressions of hate. Belief in ugliness.",
+    "Tags": [
+      "Skin"
+    ]
+  },
+  {
+    "Disease": "Whiteheads",
+    "Problem Cause": "Hiding out. Not letting the self be seen.",
+    "Tags": [
+      "Skin"
+    ]
+  },
+  {
+    "Disease": "Amenorrhea",
+    "Problem Cause": "Rejection of womanhood. Self-dislike.",
+    "Tags": [
+      "Reproductive System"
+    ]
+  },
+  {
+    "Disease": "Breast problems - Cysts, lumps, soreness",
+    "Problem Cause": "Over-mothering. Overprotection. Excessive control.",
+    "Tags": [
+      "Reproductive System"
+    ]
+  },
+  {
+    "Disease": "Endometriosis",
+    "Problem Cause": "Insecurity, disappointment, and frustration. Replacing self-love with sugar.",
+    "Tags": [
+      "Reproductive System"
+    ]
+  },
+  {
+    "Disease": "Menopause problems",
+    "Problem Cause": "Fear of no longer being wanted. Fear of aging. Self-rejection. Not feeling good enough.",
+    "Tags": [
+      "Reproductive System"
+    ]
+  },
+  {
+    "Disease": "Menstrual problems",
+    "Problem Cause": "Rejection of one's femininity. Guilt, fear. Belief that genitals are sinful or dirty.",
+    "Tags": [
+      "Reproductive System"
+    ]
+  },
+  {
+    "Disease": "Premenstrual Syndrome",
+    "Problem Cause": "Allowing confusion to reign. Giving power to outside influences. Rejection of the feminine processes.",
+    "Tags": [
+      "Reproductive System"
+    ]
+  },
+  {
+    "Disease": "Prostate problems",
+    "Problem Cause": "Mental fears. Sexual pressure and guilt. Belief in aging.",
+    "Tags": [
+      "Reproductive System"
+    ]
+  },
+  {
+    "Disease": "Sterility",
+    "Problem Cause": "Fear and resistance to the process of life. Not needing to go through the parenting experience.",
+    "Tags": [
+      "Reproductive System"
+    ]
+  },
+  {
+    "Disease": "Testicles",
+    "Problem Cause": "Masculinity. Masculine principles.",
+    "Tags": [
+      "Reproductive System"
+    ]
+  },
+  {
+    "Disease": "Uterus",
+    "Problem Cause": "Represents home, protection.",
+    "Tags": [
+      "Reproductive System"
+    ]
+  },
+  {
+    "Disease": "Vaginitis",
+    "Problem Cause": "Anger at partner. Sexual guilt. Punishing the self.",
+    "Tags": [
+      "Reproductive System"
+    ]
+  },
+  {
+    "Disease": "Yeast infections",
+    "Problem Cause": "Denying own needs. Not supporting yourself.",
+    "Tags": [
+      "Reproductive System"
+    ]
+  },
+  {
+    "Disease": "Arthritis",
+    "Problem Cause": "Feeling unloved. Criticism, resentment.",
+    "Tags": [
+      "Most common illnesses"
+    ]
+  },
+  {
+    "Disease": "Asthma",
+    "Problem Cause": "Stifling love. Inability to breathe for oneself. Feeling smothered. Suppressed crying.",
+    "Tags": [
+      "Most common illnesses"
+    ]
+  },
+  {
+    "Disease": "Cancer",
+    "Problem Cause": "Deep hurt. Long-standing resentment. Secret grief. Eating away at self. Carrying hatreds.",
+    "Tags": [
+      "Most common illnesses"
+    ]
+  },
+  {
+    "Disease": "Diabetes",
+    "Problem Cause": "Longing for what might have been. Need to control. Deep sadness. Lack of sweetness.",
+    "Tags": [
+      "Most common illnesses"
+    ]
+  },
+  {
+    "Disease": "Headache",
+    "Problem Cause": "Self-criticism. Fear.",
+    "Tags": [
+      "Most common illnesses"
+    ]
+  },
+  {
+    "Disease": "Influenza",
+    "Problem Cause": "Overwhelmed. Beliefs about mass negativity and fear.",
+    "Tags": [
+      "Most common illnesses"
+    ]
+  },
+  {
+    "Disease": "Migraine",
+    "Problem Cause": "Dislike of being driven. Resisting flow of life. Sexual fears.",
+    "Tags": [
+      "Most common illnesses"
+    ]
+  },
+  {
+    "Disease": "Sore throat",
+    "Problem Cause": "Holding in angry words. Feeling unable to express the self.",
+    "Tags": [
+      "Most common illnesses"
+    ]
+  },
+  {
+    "Disease": "Throat problems",
+    "Problem Cause": "Inability to speak up for self. Swallowed anger. Stifled creativity. Refusal to change.",
+    "Tags": [
+      "Most common illnesses"
+    ]
+  },
+  {
+    "Disease": "Alzheimer's disease",
+    "Problem Cause": "Refusal to engage with reality. Hopelessness and helplessness. Anger.",
+    "Tags": [
+      "Mental Health",
+      "Most common illnesses"
+    ]
+  },
+  {
+    "Disease": "Anxiety",
+    "Problem Cause": "Lack of trust in life's process.",
+    "Tags": [
+      "Mental Health",
+      "Most common illnesses"
+    ]
+  },
+  {
+    "Disease": "Depression",
+    "Problem Cause": "Feeling hopeless. Stifled anger.",
+    "Tags": [
+      "Mental Health",
+      "Most common illnesses"
+    ]
+  },
+  {
+    "Disease": "Insomnia",
+    "Problem Cause": "Fear. Not trusting life. Guilt.",
+    "Tags": [
+      "Mental Health",
+      "Most common illnesses"
+    ]
+  },
+  {
+    "Disease": "Addictions",
+    "Problem Cause": "Avoiding oneself. Fear. Not knowing self-love.",
+    "Tags": [
+      "Mental Health"
+    ]
+  },
+  {
+    "Disease": "Alcoholism",
+    "Problem Cause": "Feelings of futility, guilt, inadequacy. Self-rejection.",
+    "Tags": [
+      "Mental Health"
+    ]
+  },
+  {
+    "Disease": "Amnesia",
+    "Problem Cause": "Fear. Avoiding life. Inability to assert oneself.",
+    "Tags": [
+      "Mental Health"
+    ]
+  },
+  {
+    "Disease": "Apathy",
+    "Problem Cause": "Avoidance of feeling. Emotional numbness. Fear.",
+    "Tags": [
+      "Mental Health"
+    ]
+  },
+  {
+    "Disease": "Bulimia",
+    "Problem Cause": "Sense of hopelessness and terror. Self-hatred.",
+    "Tags": [
+      "Mental Health"
+    ]
+  },
+  {
+    "Disease": "Dementia",
+    "Problem Cause": "Refusal to engage with the world as it is. Fear of life. Resentment.",
+    "Tags": [
+      "Mental Health"
+    ]
+  },
+  {
+    "Disease": "Insanity",
+    "Problem Cause": "Escaping the family. Withdrawing into self. Violent separation from life.",
+    "Tags": [
+      "Mental Health"
+    ]
+  },
+  {
+    "Disease": "Nervous breakdown",
+    "Problem Cause": "Self-centeredness. Refusal to see other ways out.",
+    "Tags": [
+      "Mental Health"
+    ]
+  },
+  {
+    "Disease": "Senility",
+    "Problem Cause": "Returning to the so-called safety of childhood. Demanding care and attention. A form of control over those around you. Escape.",
+    "Tags": [
+      "Mental Health"
+    ]
+  },
+  {
+    "Disease": "Suicide",
+    "Problem Cause": "Seeing life only in black and white.",
+    "Tags": [
+      "Mental Health"
+    ]
+  },
+  {
+    "Disease": "Arteriosclerosis",
+    "Problem Cause": "Resistance, tension. Narrow-mindedness. Refusal to see good.",
+    "Tags": [
+      "Heart"
+    ]
+  },
+  {
+    "Disease": "High blood pressure",
+    "Problem Cause": "Unresolved emotional issues over a long period.",
+    "Tags": [
+      "Heart"
+    ]
+  },
+  {
+    "Disease": "Low blood pressure",
+    "Problem Cause": "Absence of affection during childhood. Sense of defeat. 'Why bother? It won't succeed anyway.'",
+    "Tags": [
+      "Heart"
+    ]
+  },
+  {
+    "Disease": "Coronary thrombosis",
+    "Problem Cause": "Feelings of loneliness and fear. Not feeling good enough. Stress and strain.",
+    "Tags": [
+      "Heart"
+    ]
+  },
+  {
+    "Disease": "Heart",
+    "Problem Cause": "Represents center of love and security.",
+    "Tags": [
+      "Heart"
+    ]
+  },
+  {
+    "Disease": "Heart Problems",
+    "Problem Cause": "Long-standing emotional issues. Lack of joy. Hardness of the heart. Belief in stress and strain.",
+    "Tags": [
+      "Heart"
+    ]
+  },
+  {
+    "Disease": "Stroke",
+    "Problem Cause": "Giving up. Resistance. 'Rather die than change.' Rejection of life.",
+    "Tags": [
+      "Heart"
+    ]
+  },
+  {
+    "Disease": "Abdominal cramps",
+    "Problem Cause": "Anxiety. Halting progress.",
+    "Tags": [
+      "Digestive System"
+    ]
+  },
+  {
+    "Disease": "Colitis",
+    "Problem Cause": "Overwhelming fears and worries.",
+    "Tags": [
+      "Digestive System"
+    ]
+  },
+  {
+    "Disease": "Constipation",
+    "Problem Cause": "Refusal to release old ideas. Stubbornness.",
+    "Tags": [
+      "Digestive System"
+    ]
+  },
+  {
+    "Disease": "Diarrhea",
+    "Problem Cause": "Fear. Rejection. Running away.",
+    "Tags": [
+      "Digestive System"
+    ]
+  },
+  {
+    "Disease": "Dysentery",
+    "Problem Cause": "Fear and intense anger.",
+    "Tags": [
+      "Digestive System"
+    ]
+  },
+  {
+    "Disease": "Indigestion",
+    "Problem Cause": "Dread or anxiety about recent or upcoming experiences.",
+    "Tags": [
+      "Digestive System"
+    ]
+  },
+  {
+    "Disease": "Nausea",
+    "Problem Cause": "Fear. Rejecting an idea or experience.",
+    "Tags": [
+      "Digestive System"
+    ]
+  },
+  {
+    "Disease": "Stomach problems",
+    "Problem Cause": "Dread. Fear of the new. Inability to assimilate the new.",
+    "Tags": [
+      "Digestive System"
+    ]
+  },
+  {
+    "Disease": "Ulcers",
+    "Problem Cause": "Fear. Strong belief that you are not good enough. What is eating away at you?",
+    "Tags": [
+      "Digestive System"
+    ]
+  },
+  {
+    "Disease": "Accidents",
+    "Problem Cause": "Inability to express oneself. Defying authority. Belief in aggression.",
+    "Tags": []
+  },
+  {
+    "Disease": "Aches",
+    "Problem Cause": "Yearning for affection. Desire to be embraced.",
+    "Tags": []
+  },
+  {
+    "Disease": "Addison's disease",
+    "Problem Cause": "Severe emotional neglect. Self-directed anger.",
+    "Tags": []
+  },
+  {
+    "Disease": "Adenoids",
+    "Problem Cause": "Family conflicts and disputes. Child feels unwelcome.",
+    "Tags": []
+  },
+  {
+    "Disease": "Adrenal problems",
+    "Problem Cause": "Defeatism. Neglect of self-care. Anxiety.",
+    "Tags": []
+  },
+  {
+    "Disease": "Aging problems",
+    "Problem Cause": "Societal beliefs. Old mindset. Fear of being oneself. Denial of the present.",
+    "Tags": []
+  },
+  {
+    "Disease": "AIDS",
+    "Problem Cause": "Feeling vulnerable and hopeless. Belief in inadequacy. Self-denial. Sexual guilt.",
+    "Tags": []
+  },
+  {
+    "Disease": "Allergies",
+    "Problem Cause": "Who are you reacting to? Denying personal power.",
+    "Tags": []
+  },
+  {
+    "Disease": "Ankle(s)",
+    "Problem Cause": "Rigidity and guilt. Represents ability to experience pleasure.",
+    "Tags": []
+  },
+  {
+    "Disease": "Anorectal bleeding (Hematochezia)",
+    "Problem Cause": "Anger and frustration.",
+    "Tags": []
+  },
+  {
+    "Disease": "Anorexia",
+    "Problem Cause": "Self-denial.",
+    "Tags": []
+  },
+  {
+    "Disease": "Anus",
+    "Problem Cause": "Point of release. Disposal site.",
+    "Tags": []
+  },
+  {
+    "Disease": "Anus abscess",
+    "Problem Cause": "Anger about releasing.",
+    "Tags": []
+  },
+  {
+    "Disease": "Anus bleeding",
+    "Problem Cause": "Anger about releasing.",
+    "Tags": []
+  },
+  {
+    "Disease": "Anus fistula",
+    "Problem Cause": "Incomplete release of waste. Holding onto past trash.",
+    "Tags": []
+  },
+  {
+    "Disease": "Anus itching (Pruritis ani)",
+    "Problem Cause": "Guilt about the past. Remorse.",
+    "Tags": []
+  },
+  {
+    "Disease": "Anus pain",
+    "Problem Cause": "Guilt. Desire for punishment. Feelings of inadequacy.",
+    "Tags": []
+  },
+  {
+    "Disease": "Appendicitis",
+    "Problem Cause": "Fear of life. Blocking positivity.",
+    "Tags": []
+  },
+  {
+    "Disease": "Appetite - Excessive",
+    "Problem Cause": "Fear. Need for protection. Judging emotions.",
+    "Tags": []
+  },
+  {
+    "Disease": "Appetite - Loss of",
+    "Problem Cause": "Fear. Self-protection. Distrust of life.",
+    "Tags": []
+  },
+  {
+    "Disease": "Arm(s)",
+    "Problem Cause": "Symbolizes capacity to hold life experiences.",
+    "Tags": []
+  },
+  {
+    "Disease": "Arteries",
+    "Problem Cause": "Carry life's joy.",
+    "Tags": []
+  },
+  {
+    "Disease": "Arthritic fingers",
+    "Problem Cause": "Desire to punish. Blame. Feeling victimized.",
+    "Tags": []
+  },
+  {
+    "Disease": "Asphyxiating Attacks",
+    "Problem Cause": "Fear. Distrust in life's process. Stuck in childhood.",
+    "Tags": []
+  },
+  {
+    "Disease": "Babies and Children",
+    "Problem Cause": "Fear of life. Reluctance to be here.",
+    "Tags": []
+  },
+  {
+    "Disease": "Back",
+    "Problem Cause": "Represents life's support.",
+    "Tags": []
+  },
+  {
+    "Disease": "Back Problems - Lower",
+    "Problem Cause": "Fear of finances. Lack of monetary support.",
+    "Tags": []
+  },
+  {
+    "Disease": "Back Problems - Medium",
+    "Problem Cause": "Guilt. Stuck in past issues. \"Get off my back.\"",
+    "Tags": []
+  },
+  {
+    "Disease": "Back Problems - Upper",
+    "Problem Cause": "Lack of emotional support. Feeling unloved. Withholding love.",
+    "Tags": []
+  },
+  {
+    "Disease": "Bad Breath",
+    "Problem Cause": "Anger and thoughts of revenge. Repressed experiences.",
+    "Tags": []
+  },
+  {
+    "Disease": "Baldness",
+    "Problem Cause": "Fear. Tension. Need to control. Distrust in life's process.",
+    "Tags": []
+  },
+  {
+    "Disease": "Bedwetting (Enuresis)",
+    "Problem Cause": "Fear of a parent, typically the father.",
+    "Tags": []
+  },
+  {
+    "Disease": "Belching",
+    "Problem Cause": "Fear. Consuming life too quickly.",
+    "Tags": []
+  },
+  {
+    "Disease": "Bell's Palsy",
+    "Problem Cause": "Extreme control over anger. Reluctance to express emotions.",
+    "Tags": []
+  },
+  {
+    "Disease": "Birth",
+    "Problem Cause": "Symbolizes entry into this phase of life.",
+    "Tags": []
+  },
+  {
+    "Disease": "Birth Defects",
+    "Problem Cause": "Karmic. Chosen path. Unfinished business.",
+    "Tags": []
+  },
+  {
+    "Disease": "Bites",
+    "Problem Cause": "Fear. Sensitivity to minor slights.",
+    "Tags": []
+  },
+  {
+    "Disease": "Bites - Animal",
+    "Problem Cause": "Internalized anger. Need for punishment.",
+    "Tags": []
+  },
+  {
+    "Disease": "Bites - Bug",
+    "Problem Cause": "Guilt over small matters.",
+    "Tags": []
+  },
+  {
+    "Disease": "Blackheads",
+    "Problem Cause": "Minor bursts of anger.",
+    "Tags": []
+  },
+  {
+    "Disease": "Bladder Problems (Cystitis)",
+    "Problem Cause": "Anxiety. Clinging to old ideas. Fear of releasing. Resentment.",
+    "Tags": []
+  },
+  {
+    "Disease": "Bleeding",
+    "Problem Cause": "Loss of joy. Anger.",
+    "Tags": []
+  },
+  {
+    "Disease": "Bleeding gums",
+    "Problem Cause": "Lack of joy in life decisions.",
+    "Tags": []
+  },
+  {
+    "Disease": "Blisters",
+    "Problem Cause": "Opposition. Lack of emotional protection.",
+    "Tags": []
+  },
+  {
+    "Disease": "Bloating",
+    "Problem Cause": "Clinging to old ideas. Fear of new.",
+    "Tags": []
+  },
+  {
+    "Disease": "Boils (Furuncles)",
+    "Problem Cause": "Anger. Boiling inside. Feeling attacked.",
+    "Tags": []
+  },
+  {
+    "Disease": "Bone Marrow",
+    "Problem Cause": "Represents deepest beliefs.",
+    "Tags": []
+  },
+  {
+    "Disease": "Bone Marrow Problems",
+    "Problem Cause": "Feelings of inadequacy. Lack of self-acceptance.",
+    "Tags": []
+  },
+  {
+    "Disease": "Bone problems",
+    "Problem Cause": "Rebellion against life's structure.",
+    "Tags": []
+  },
+  {
+    "Disease": "Bones",
+    "Problem Cause": "Represent life's structure.",
+    "Tags": []
+  },
+  {
+    "Disease": "Bow legs",
+    "Problem Cause": "Fear of facing forward.",
+    "Tags": []
+  },
+  {
+    "Disease": "Breast problems",
+    "Problem Cause": "Over-mothering. Overprotection. Excessive control.",
+    "Tags": []
+  },
+  {
+    "Disease": "Breath",
+    "Problem Cause": "Represents ability to take in life.",
+    "Tags": []
+  },
+  {
+    "Disease": "Breathing problems",
+    "Problem Cause": "Fear or refusal to take in life fully. Feeling unworthy of living.",
+    "Tags": []
+  },
+  {
+    "Disease": "Bright's disease",
+    "Problem Cause": "Feeling like a child who can't do things right. Failure.",
+    "Tags": []
+  },
+  {
+    "Disease": "Bronchitis",
+    "Problem Cause": "Family environment inflamed. Arguments and yelling. Rarely silent.",
+    "Tags": []
+  },
+  {
+    "Disease": "Bruises",
+    "Problem Cause": "Small bumps in the road of life. Self-punishment.",
+    "Tags": []
+  },
+  {
+    "Disease": "Burns",
+    "Problem Cause": "Anger. Inner rage. Incidents inflamed.",
+    "Tags": []
+  },
+  {
+    "Disease": "Bursitis",
+    "Problem Cause": "Repressed anger. Wanting to hit someone.",
+    "Tags": []
+  },
+  {
+    "Disease": "Buttocks",
+    "Problem Cause": "Represent power. Lost power.",
+    "Tags": []
+  },
+  {
+    "Disease": "Calluses",
+    "Problem Cause": "Hardened concepts and ideas. Fears solidified.",
+    "Tags": []
+  },
+  {
+    "Disease": "Candida (Candidiasis)",
+    "Problem Cause": "Feeling out of control. Severe frustration and anger. Demand for attention and love.",
+    "Tags": []
+  },
+  {
+    "Disease": "Canker sores",
+    "Problem Cause": "Unsanctioned words. Self-criticism. Guilt.",
+    "Tags": []
+  },
+  {
+    "Disease": "Car sickness",
+    "Problem Cause": "Fear. Feeling trapped or over-controlled.",
+    "Tags": []
+  },
+  {
+    "Disease": "Carbuncle",
+    "Problem Cause": "Poisonous rage over personal injustices.",
+    "Tags": []
+  },
+  {
+    "Disease": "Carpal tunnel syndrome",
+    "Problem Cause": "Resentment. Related to life's injustices.",
+    "Tags": []
+  },
+  {
+    "Disease": "Cataracts",
+    "Problem Cause": "Inability to look forward with joy. Dark future.",
+    "Tags": []
+  },
+  {
+    "Disease": "Cellulite",
+    "Problem Cause": "Stored anger and self-punishment. Fear of self-discipline.",
+    "Tags": []
+  },
+  {
+    "Disease": "Cerebral palsy",
+    "Problem Cause": "Desire to control everything and everyone. Deep guilt.",
+    "Tags": []
+  },
+  {
+    "Disease": "Chest",
+    "Problem Cause": "Represents caring and protection. Guarding emotions.",
+    "Tags": []
+  },
+  {
+    "Disease": "Cholesterol (Hypercholesterolemia)",
+    "Problem Cause": "Blocking joy. Fear of accepting joy.",
+    "Tags": []
+  },
+  {
+    "Disease": "Circulation",
+    "Problem Cause": "Represents ability to feel and express emotions.",
+    "Tags": []
+  },
+  {
+    "Disease": "Cold sores (Herpes Simplex)",
+    "Problem Cause": "Strongly held belief in personal disgrace. Desire for punishment.",
+    "Tags": []
+  },
+  {
+    "Disease": "Colds (Upper Respiratory Infections)",
+    "Problem Cause": "Confusion. Chaos in the mind. Small hurts. Beliefs such as 'I get three colds every winter.'",
+    "Tags": []
+  },
+  {
+    "Disease": "Colic",
+    "Problem Cause": "Mental irritation. Annoyance from surroundings.",
+    "Tags": []
+  },
+  {
+    "Disease": "Coma",
+    "Problem Cause": "Fear. Escaping something or someone.",
+    "Tags": []
+  },
+  {
+    "Disease": "Congestion",
+    "Problem Cause": "Overloaded mind. Obstructed thinking.",
+    "Tags": []
+  },
+  {
+    "Disease": "Conjunctivitis",
+    "Problem Cause": "Anger and frustration from seeing life injustices.",
+    "Tags": []
+  },
+  {
+    "Disease": "Convulsions",
+    "Problem Cause": "Desire to escape family or self.",
+    "Tags": []
+  },
+  {
+    "Disease": "Corns",
+    "Problem Cause": "Hardened thoughts. Stubborn ideas.",
+    "Tags": []
+  },
+  {
+    "Disease": "Coughs",
+    "Problem Cause": "Desire to bark at the world. 'See me! Listen to me!'",
+    "Tags": []
+  },
+  {
+    "Disease": "Cramps",
+    "Problem Cause": "Tension. Fear. Grasping and holding.",
+    "Tags": []
+  },
+  {
+    "Disease": "Crying",
+    "Problem Cause": "Tears are the river of life. Shed tears for joy and sadness, and fear.",
+    "Tags": []
+  },
+  {
+    "Disease": "Cushing's disease",
+    "Problem Cause": "Mental imbalance. Overload of negative ideas.",
+    "Tags": []
+  },
+  {
+    "Disease": "Cuts",
+    "Problem Cause": "Punishment for not following own rules.",
+    "Tags": []
+  },
+  {
+    "Disease": "Cyst(s)",
+    "Problem Cause": "Nurturing old pain. False growth. Unresolved hurts.",
+    "Tags": []
+  },
+  {
+    "Disease": "Cystic fibrosis",
+    "Problem Cause": "Despair. Belief in lack of joy.",
+    "Tags": []
+  },
+  {
+    "Disease": "Dandruff",
+    "Problem Cause": "Sense of being unloved. Rejection of self. Worry.",
+    "Tags": []
+  },
+  {
+    "Disease": "Deafness",
+    "Problem Cause": "Rejection. Stubbornness. Isolation from others.",
+    "Tags": []
+  },
+  {
+    "Disease": "Death",
+    "Problem Cause": "Represents moving into the afterlife or other experiences.",
+    "Tags": []
+  },
+  {
+    "Disease": "Dizziness (Vertigo)",
+    "Problem Cause": "Flighty, scattered thinking. Lack of focus.",
+    "Tags": []
+  },
+  {
+    "Disease": "Dry eye",
+    "Problem Cause": "Anger. Not wanting to see. Guarding against hurt.",
+    "Tags": []
+  },
+  {
+    "Disease": "Ear",
+    "Problem Cause": "Represents ability to hear.",
+    "Tags": []
+  },
+  {
+    "Disease": "Ear Problems",
+    "Problem Cause": "Refusal to hear. Often anger or rejection.",
+    "Tags": []
+  },
+  {
+    "Disease": "Edema",
+    "Problem Cause": "Being stuck in thoughts. Clinging to past.",
+    "Tags": []
+  },
+  {
+    "Disease": "Elbow",
+    "Problem Cause": "Represents changing directions. Acceptance of new experiences.",
+    "Tags": []
+  },
+  {
+    "Disease": "Epilepsy",
+    "Problem Cause": "Extreme fear of life. Sense of persecution. Rejection of life.",
+    "Tags": []
+  },
+  {
+    "Disease": "Epstein-Barr Virus",
+    "Problem Cause": "Pushing beyond limits. Fear of not being good enough. Draining all inner support. Stress virus.",
+    "Tags": []
+  },
+  {
+    "Disease": "Face",
+    "Problem Cause": "Represents self to the world.",
+    "Tags": []
+  },
+  {
+    "Disease": "Fainting",
+    "Problem Cause": "Fear, inability to cope. Blacking out what should be faced.",
+    "Tags": []
+  },
+  {
+    "Disease": "Fatigue",
+    "Problem Cause": "Resistance, boredom. Lack of love for what's done.",
+    "Tags": []
+  },
+  {
+    "Disease": "Feet",
+    "Problem Cause": "Represent understanding of self, life, and others.",
+    "Tags": []
+  },
+  {
+    "Disease": "Fever",
+    "Problem Cause": "Anger, burning up. Inner rage.",
+    "Tags": []
+  },
+  {
+    "Disease": "Fibroids",
+    "Problem Cause": "Nurturing pain from a partner. A blow to femininity.",
+    "Tags": []
+  },
+  {
+    "Disease": "Fingernails",
+    "Problem Cause": "Represent protection. Fragility.",
+    "Tags": []
+  },
+  {
+    "Disease": "Fingers",
+    "Problem Cause": "Represent details of life.",
+    "Tags": []
+  },
+  {
+    "Disease": "Fistula",
+    "Problem Cause": "Fear of letting go of waste from the past.",
+    "Tags": []
+  },
+  {
+    "Disease": "Food poisoning",
+    "Problem Cause": "Allowing others to take control.",
+    "Tags": []
+  },
+  {
+    "Disease": "Foot problems",
+    "Problem Cause": "Fear of future. Fear of moving forward.",
+    "Tags": []
+  },
+  {
+    "Disease": "Fractures",
+    "Problem Cause": "Rebellion against authority.",
+    "Tags": []
+  },
+  {
+    "Disease": "Frequent illness",
+    "Problem Cause": "Mental confusion, disorder. Small hurts. Belief in seasonal illnesses.",
+    "Tags": []
+  },
+  {
+    "Disease": "Gallstones",
+    "Problem Cause": "Bitterness. Hard thoughts. Condemnation. Pride.",
+    "Tags": []
+  },
+  {
+    "Disease": "Gas pains (Flatulence)",
+    "Problem Cause": "Grasping onto ideas. Fear of losing.",
+    "Tags": []
+  },
+  {
+    "Disease": "Gastritis",
+    "Problem Cause": "Prolonged uncertainty. Sense of doom.",
+    "Tags": []
+  },
+  {
+    "Disease": "Genital problems",
+    "Problem Cause": "Anxiety about not being good enough.",
+    "Tags": []
+  },
+  {
+    "Disease": "Genitals",
+    "Problem Cause": "Represent masculine and feminine principles.",
+    "Tags": []
+  },
+  {
+    "Disease": "Gland problems",
+    "Problem Cause": "Poor distribution of love. Withheld love.",
+    "Tags": []
+  },
+  {
+    "Disease": "Glaucoma",
+    "Problem Cause": "Stagnant anger. Long-lasting pressure.",
+    "Tags": []
+  },
+  {
+    "Disease": "Goiter",
+    "Problem Cause": "Suppression of self-expression. Not being allowed to do what one wants.",
+    "Tags": []
+  },
+  {
+    "Disease": "Gout",
+    "Problem Cause": "Anger. Desire for domination.",
+    "Tags": []
+  },
+  {
+    "Disease": "Gum problems",
+    "Problem Cause": "Inability to stick to decisions. Lack of support for decisions.",
+    "Tags": []
+  },
+  {
+    "Disease": "Hair",
+    "Problem Cause": "Represents strength.",
+    "Tags": []
+  },
+  {
+    "Disease": "Hair problems",
+    "Problem Cause": "Tension. Belief in pressure. Fear.",
+    "Tags": []
+  },
+  {
+    "Disease": "Hands",
+    "Problem Cause": "Hold and handle life. Grasping and letting go. Clutching or releasing.",
+    "Tags": []
+  },
+  {
+    "Disease": "Hay fever",
+    "Problem Cause": "Emotional congestion. Fear of time cycles.",
+    "Tags": []
+  },
+  {
+    "Disease": "Heart attack",
+    "Problem Cause": "Squeezing all joy from the heart in favor of money or status.",
+    "Tags": []
+  },
+  {
+    "Disease": "Heartburn",
+    "Problem Cause": "Fear. Clutching fear.",
+    "Tags": []
+  },
+  {
+    "Disease": "Hemorrhoids",
+    "Problem Cause": "Fear of deadlines. Anger from past. Afraid to let go. Feeling burdened.",
+    "Tags": []
+  },
+  {
+    "Disease": "Hepatitis",
+    "Problem Cause": "Resistance to change. Fear, anger, and hatred. Liver as a seat of anger and rage.",
+    "Tags": []
+  },
+  {
+    "Disease": "Herpes",
+    "Problem Cause": "Sense of shame. Belief in punishment for sins.",
+    "Tags": []
+  },
+  {
+    "Disease": "Hip Problems",
+    "Problem Cause": "Fear of forward movement. Fear of decision-making.",
+    "Tags": []
+  },
+  {
+    "Disease": "Hip(s)",
+    "Problem Cause": "Carries body forward in balance. Major forward movement.",
+    "Tags": []
+  },
+  {
+    "Disease": "Hives",
+    "Problem Cause": "Minor hidden fears. Making mountains out of molehills.",
+    "Tags": []
+  },
+  {
+    "Disease": "Hodgkin's disease",
+    "Problem Cause": "Blame and lack of self-worth. Fear of inadequacy.",
+    "Tags": []
+  },
+  {
+    "Disease": "Hormonal problems",
+    "Problem Cause": "Lack of communication. Poor distribution of love.",
+    "Tags": []
+  },
+  {
+    "Disease": "Hyperactivity",
+    "Problem Cause": "Fear. Sense of pressure. Unrest.",
+    "Tags": []
+  },
+  {
+    "Disease": "Hyperventilation",
+    "Problem Cause": "Fear or resistance to change. Not being able to take it in.",
+    "Tags": []
+  },
+  {
+    "Disease": "Hypoglycemia",
+    "Problem Cause": "Feeling overwhelmed by life's burdens.",
+    "Tags": []
+  },
+  {
+    "Disease": "Hypothyroidism",
+    "Problem Cause": "Giving up. Feeling hopeless.",
+    "Tags": []
+  },
+  {
+    "Disease": "Impotence",
+    "Problem Cause": "Sexual tension. Guilt. Social beliefs. Anger towards partner. Fear of mother.",
+    "Tags": []
+  },
+  {
+    "Disease": "Incontinence",
+    "Problem Cause": "Emotional overflow. Long-held beliefs about limitations.",
+    "Tags": []
+  },
+  {
+    "Disease": "Infections",
+    "Problem Cause": "Anger, irritation, and annoyance about something or someone.",
+    "Tags": []
+  },
+  {
+    "Disease": "Ingrown Toenail",
+    "Problem Cause": "Anxiety and guilt about right to move forward.",
+    "Tags": []
+  },
+  {
+    "Disease": "Itching",
+    "Problem Cause": "Desires that go against the grain. Unfulfilled. Remorse.",
+    "Tags": []
+  },
+  {
+    "Disease": "Jaundice",
+    "Problem Cause": "Internal and external prejudice. Unbalanced reason.",
+    "Tags": []
+  },
+  {
+    "Disease": "Jaw Problems (Temporomandibular Joint)",
+    "Problem Cause": "Anger. Resentment. Desire for revenge.",
+    "Tags": []
+  },
+  {
+    "Disease": "Joints",
+    "Problem Cause": "Represent changes in direction in life and ease of these movements.",
+    "Tags": []
+  },
+  {
+    "Disease": "Keratitis",
+    "Problem Cause": "Extreme anger. Desire to hit what is seen and felt.",
+    "Tags": []
+  },
+  {
+    "Disease": "Kidney problems",
+    "Problem Cause": "Criticism, disappointment, failure. Shame. Reacting like a child.",
+    "Tags": []
+  },
+  {
+    "Disease": "Knee Problems",
+    "Problem Cause": "Stubborn ego and pride. Inability to bend. Fear. Inflexibility. Won't give in.",
+    "Tags": []
+  },
+  {
+    "Disease": "Knee(s)",
+    "Problem Cause": "Pride and ego. Willfulness.",
+    "Tags": []
+  },
+  {
+    "Disease": "Laryngitis",
+    "Problem Cause": "So mad couldn't speak. Fear of speaking up. Resentment of authority.",
+    "Tags": []
+  },
+  {
+    "Disease": "Left side of body",
+    "Problem Cause": "Represents receptivity, taking in, feminine energy, women, mother.",
+    "Tags": []
+  },
+  {
+    "Disease": "Leg problems",
+    "Problem Cause": "Fear of future. Fear of moving forward or of being carried forward.",
+    "Tags": []
+  },
+  {
+    "Disease": "Leg(s)",
+    "Problem Cause": "Carry us forward in life.",
+    "Tags": []
+  },
+  {
+    "Disease": "Leprosy",
+    "Problem Cause": "Inability to handle life. Long-held belief in not being good enough or clean enough.",
+    "Tags": []
+  },
+  {
+    "Disease": "Leukemia",
+    "Problem Cause": "Brutally killing inspiration. 'What's the use?'",
+    "Tags": []
+  },
+  {
+    "Disease": "Liver",
+    "Problem Cause": "Seat of anger and primitive emotions.",
+    "Tags": []
+  },
+  {
+    "Disease": "Liver Problems",
+    "Problem Cause": "Chronic complaining. Justifying fault-finding to deceive self. Feeling bad.",
+    "Tags": []
+  },
+  {
+    "Disease": "Lockjaw",
+    "Problem Cause": "Anger. Desire for control. Refusal to express feelings.",
+    "Tags": []
+  },
+  {
+    "Disease": "Lump in throat",
+    "Problem Cause": "Fear. Trust issues.",
+    "Tags": []
+  },
+  {
+    "Disease": "Lung",
+    "Problem Cause": "Ability to take in life.",
+    "Tags": []
+  },
+  {
+    "Disease": "Lung Problems",
+    "Problem Cause": "Depression. Grief. Fear of taking in life. Not feeling worthy of living life fully.",
+    "Tags": []
+  },
+  {
+    "Disease": "Lupus",
+    "Problem Cause": "Giving up. Better to die than stand up for oneself. Anger and punishment.",
+    "Tags": []
+  },
+  {
+    "Disease": "Lymph problems",
+    "Problem Cause": "Warning to re-evaluate life and priorities.",
+    "Tags": []
+  },
+  {
+    "Disease": "Malaria",
+    "Problem Cause": "Out of balance with nature and life.",
+    "Tags": []
+  },
+  {
+    "Disease": "Mastitis",
+    "Problem Cause": "Over-mothering. Overprotection. Overbearing attitudes.",
+    "Tags": []
+  },
+  {
+    "Disease": "Meningitis",
+    "Problem Cause": "Inflamed thinking and anger at life.",
+    "Tags": []
+  },
+  {
+    "Disease": "Miscarriage",
+    "Problem Cause": "Fear. Fear of the future. 'Not now - later.'",
+    "Tags": []
+  },
+  {
+    "Disease": "Mitral valve prolapse",
+    "Problem Cause": "Not feeling good enough. Fear of not being good enough.",
+    "Tags": []
+  },
+  {
+    "Disease": "Mononucleosis",
+    "Problem Cause": "Anger at not receiving love and appreciation. Not being good enough. Self-pity.",
+    "Tags": []
+  },
+  {
+    "Disease": "Motion sickness",
+    "Problem Cause": "Fear. Fear of not being in control.",
+    "Tags": []
+  },
+  {
+    "Disease": "Mouth",
+    "Problem Cause": "Represents taking in new ideas and nourishment.",
+    "Tags": []
+  },
+  {
+    "Disease": "Mouth Problems",
+    "Problem Cause": "Set opinions. Closed mind. Incapacity to take in new ideas.",
+    "Tags": []
+  },
+  {
+    "Disease": "Multiple Sclerosis",
+    "Problem Cause": "Mental hardness. Hard-heartedness. Iron will. Lack of flexibility.",
+    "Tags": []
+  },
+  {
+    "Disease": "Muscles",
+    "Problem Cause": "Resistance to new experiences. Muscle problems: Represents challenging beliefs and thoughts.",
+    "Tags": []
+  },
+  {
+    "Disease": "Muscular Dystrophy",
+    "Problem Cause": "Belief that it's not safe to be oneself.",
+    "Tags": []
+  },
+  {
+    "Disease": "Nail Biting",
+    "Problem Cause": "Frustration. Eating away at self. Spite of a parent.",
+    "Tags": []
+  },
+  {
+    "Disease": "Neck",
+    "Problem Cause": "Represents flexibility. Ability to see what's back there.",
+    "Tags": []
+  },
+  {
+    "Disease": "Neck Problems",
+    "Problem Cause": "Refusal to see other sides of question. Stubbornness, inflexibility.",
+    "Tags": []
+  },
+  {
+    "Disease": "Nephritis",
+    "Problem Cause": "Too much disappointment and failure. Belief in being a failure. Shame.",
+    "Tags": []
+  },
+  {
+    "Disease": "Nervousness",
+    "Problem Cause": "Fear, anxiety, struggle, rushing. Not trusting life.",
+    "Tags": []
+  },
+  {
+    "Disease": "Neuralgia",
+    "Problem Cause": "Punishment for guilt. Anguish over communication.",
+    "Tags": []
+  },
+  {
+    "Disease": "Numbness",
+    "Problem Cause": "Withholding love and consideration. Going dead mentally.",
+    "Tags": []
+  },
+  {
+    "Disease": "Osteoarthritis",
+    "Problem Cause": "Feeling unloved. Criticism. Resentment.",
+    "Tags": []
+  },
+  {
+    "Disease": "Osteomyelitis",
+    "Problem Cause": "Anger and frustration at the very structure of life. Feeling unsupported.",
+    "Tags": []
+  },
+  {
+    "Disease": "Osteoporosis",
+    "Problem Cause": "Feeling there's no support left in life.",
+    "Tags": []
+  },
+  {
+    "Disease": "Overweight",
+    "Problem Cause": "Fear. Need for protection. Running away from feelings. Insecurity, self-rejection. Seeking fulfillment.",
+    "Tags": []
+  },
+  {
+    "Disease": "Pain",
+    "Problem Cause": "Guilt. Guilt always seeks punishment.",
+    "Tags": []
+  },
+  {
+    "Disease": "Palpitations",
+    "Problem Cause": "Fear. Running away. Not feeling good enough.",
+    "Tags": []
+  },
+  {
+    "Disease": "Pancreas",
+    "Problem Cause": "Represents sweetness of life.",
+    "Tags": []
+  },
+  {
+    "Disease": "Pancreatitis",
+    "Problem Cause": "Rejection. Anger and frustration because life seems to have lost its sweetness.",
+    "Tags": []
+  },
+  {
+    "Disease": "Paralysis",
+    "Problem Cause": "Paralyzing fear. Terror. Escape from situation or person.",
+    "Tags": []
+  },
+  {
+    "Disease": "Parasites",
+    "Problem Cause": "Giving power to others, letting them take over.",
+    "Tags": []
+  },
+  {
+    "Disease": "Parkinson's disease",
+    "Problem Cause": "Fear and intense desire to control everything and everyone.",
+    "Tags": []
+  },
+  {
+    "Disease": "Peptic Ulcer",
+    "Problem Cause": "Fear. Belief that you're not good enough. Anxiety.",
+    "Tags": []
+  },
+  {
+    "Disease": "Periodontal Disease",
+    "Problem Cause": "Inability to back up decisions. Indecisive about life.",
+    "Tags": []
+  },
+  {
+    "Disease": "Pernicious anemia",
+    "Problem Cause": "Anger and frustration at not being able to live up to self-imposed standards.",
+    "Tags": []
+  },
+  {
+    "Disease": "Pituitary Gland",
+    "Problem Cause": "Represents control center.",
+    "Tags": []
+  },
+  {
+    "Disease": "Plantar Wart",
+    "Problem Cause": "Anger at the very basis of your understanding. Moving forward with fear.",
+    "Tags": []
+  },
+  {
+    "Disease": "Pleurisy",
+    "Problem Cause": "Inflamed by the family. Anger and frustration.",
+    "Tags": []
+  },
+  {
+    "Disease": "Pneumonia",
+    "Problem Cause": "Desperate. Tired of life. Emotional wounds not allowed to heal.",
+    "Tags": []
+  },
+  {
+    "Disease": "Poison Ivy",
+    "Problem Cause": "Feeling defenseless and open to attack.",
+    "Tags": []
+  },
+  {
+    "Disease": "Poison Oak",
+    "Problem Cause": "Feeling defenseless and open to attack.",
+    "Tags": []
+  },
+  {
+    "Disease": "Polio",
+    "Problem Cause": "Paralyzing jealousy. Desire to stop someone.",
+    "Tags": []
+  },
+  {
+    "Disease": "Post-Nasal Drip",
+    "Problem Cause": "Inner crying. Childish tears. Victim.",
+    "Tags": []
+  },
+  {
+    "Disease": "Pyorrhea",
+    "Problem Cause": "Anger at inability to make decisions. Justifying life and failure with anger.",
+    "Tags": []
+  },
+  {
+    "Disease": "Quinsy",
+    "Problem Cause": "Angry words never spoken. Blame.",
+    "Tags": []
+  },
+  {
+    "Disease": "Rabies",
+    "Problem Cause": "Anger. Belief that violence is the answer.",
+    "Tags": []
+  },
+  {
+    "Disease": "Rashes",
+    "Problem Cause": "Irritation over delays. Hiding the self.",
+    "Tags": []
+  },
+  {
+    "Disease": "Respiratory Ailments",
+    "Problem Cause": "Fear of taking in life fully.",
+    "Tags": []
+  },
+  {
+    "Disease": "Rheumatism",
+    "Problem Cause": "Feeling victimized. Lack of love. Chronic bitterness. Resentment.",
+    "Tags": []
+  },
+  {
+    "Disease": "Rheumatoid Arthritis",
+    "Problem Cause": "Deep criticism of authority. Feeling victimized.",
+    "Tags": []
+  },
+  {
+    "Disease": "Right side of body",
+    "Problem Cause": "Giving out, letting go, masculine energy, men, father.",
+    "Tags": []
+  },
+  {
+    "Disease": "Ringing in ears",
+    "Problem Cause": "Refusal to listen. Not hearing the inner voice. Stubbornness.",
+    "Tags": []
+  },
+  {
+    "Disease": "Round shoulders",
+    "Problem Cause": "Carrying burdens. Helplessness and hopelessness.",
+    "Tags": []
+  },
+  {
+    "Disease": "Sagging lines",
+    "Problem Cause": "Sagging lines on face: Resentment at life. Feeling burdens of life.",
+    "Tags": []
+  },
+  {
+    "Disease": "Scabies",
+    "Problem Cause": "Infected thinking. Allowing others to get under the skin.",
+    "Tags": []
+  },
+  {
+    "Disease": "Sciatica",
+    "Problem Cause": "Being hypocritical. Fear of money and of future.",
+    "Tags": []
+  },
+  {
+    "Disease": "Scleroderma",
+    "Problem Cause": "Protection from life. Not trusting self to be there and to take care of self.",
+    "Tags": []
+  },
+  {
+    "Disease": "Scoliosis",
+    "Problem Cause": "Uncertainty and lack of integrity. No courage of conviction.",
+    "Tags": []
+  },
+  {
+    "Disease": "Seizures",
+    "Problem Cause": "Running away from family, self, or life.",
+    "Tags": []
+  },
+  {
+    "Disease": "Shin(s)",
+    "Problem Cause": "Breaking down ideals. Shins: Standards of life.",
+    "Tags": []
+  },
+  {
+    "Disease": "Shingles",
+    "Problem Cause": "Waiting for the other shoe to drop. Fear and tension. Too sensitive.",
+    "Tags": []
+  },
+  {
+    "Disease": "Sinus problems",
+    "Problem Cause": "Irritation towards one person, someone close.",
+    "Tags": []
+  },
+  {
+    "Disease": "Skeleton",
+    "Problem Cause": "Represents crumbling of structure.",
+    "Tags": []
+  },
+  {
+    "Disease": "Slipped Disk",
+    "Problem Cause": "Feeling unsupported in life. Indecisive.",
+    "Tags": []
+  },
+  {
+    "Disease": "Sluggishness",
+    "Problem Cause": "Resistance to change. Boredom.",
+    "Tags": []
+  },
+  {
+    "Disease": "Spasms",
+    "Problem Cause": "Tightening thoughts. Fear.",
+    "Tags": []
+  },
+  {
+    "Disease": "Spinal curvature",
+    "Problem Cause": "Fear and trying to hold on to old ideas. Lack of courage to be convinced of own beliefs.",
+    "Tags": []
+  },
+  {
+    "Disease": "Spinal Meningitis",
+    "Problem Cause": "Inflamed thinking and anger at life.",
+    "Tags": []
+  },
+  {
+    "Disease": "Spine",
+    "Problem Cause": "Flexible support of life.",
+    "Tags": []
+  },
+  {
+    "Disease": "Spleen",
+    "Problem Cause": "Obsessions. Being obsessed about things.",
+    "Tags": []
+  },
+  {
+    "Disease": "Splinters",
+    "Problem Cause": "Small fears. Reminders of past.",
+    "Tags": []
+  },
+  {
+    "Disease": "Sprains",
+    "Problem Cause": "Anger and resistance. Not wanting to move in a certain direction in life.",
+    "Tags": []
+  },
+  {
+    "Disease": "Stiff Neck",
+    "Problem Cause": "Unbending bullheadedness.",
+    "Tags": []
+  },
+  {
+    "Disease": "Stiffness",
+    "Problem Cause": "Rigid, stiff thinking.",
+    "Tags": []
+  },
+  {
+    "Disease": "Stuttering",
+    "Problem Cause": "Insecurity. Lack of self-expression. Not being allowed to cry.",
+    "Tags": []
+  },
+  {
+    "Disease": "Sty",
+    "Problem Cause": "Looking at life through angry eyes. Angry at someone.",
+    "Tags": []
+  },
+  {
+    "Disease": "Swelling",
+    "Problem Cause": "Being stuck in thinking. Clogged, painful ideas.",
+    "Tags": []
+  },
+  {
+    "Disease": "Syphilis",
+    "Problem Cause": "Giving away power and effectiveness.",
+    "Tags": []
+  },
+  {
+    "Disease": "Tapeworm",
+    "Problem Cause": "Strong belief in being a victim and unclean. Helpless to the seeming attitudes of others.",
+    "Tags": []
+  },
+  {
+    "Disease": "Teeth",
+    "Problem Cause": "Represents decisions.",
+    "Tags": []
+  },
+  {
+    "Disease": "Teeth Problems",
+    "Problem Cause": "Longstanding indecisiveness. Inability to break down ideas for analysis and decisions.",
+    "Tags": []
+  },
+  {
+    "Disease": "Temporomandibular Joint",
+    "Problem Cause": "Anger. Resentment. Desire for revenge.",
+    "Tags": []
+  },
+  {
+    "Disease": "Throat",
+    "Problem Cause": "Avenue of expression. Channel of creativity.",
+    "Tags": []
+  },
+  {
+    "Disease": "Thrush",
+    "Problem Cause": "Anger over making the wrong decisions.",
+    "Tags": []
+  },
+  {
+    "Disease": "Thymus",
+    "Problem Cause": "Feeling attacked by life. They are out to get me.",
+    "Tags": []
+  },
+  {
+    "Disease": "Thyroid",
+    "Problem Cause": "Humiliation. I never get to do what I want to do. When is it going to be my turn?",
+    "Tags": []
+  },
+  {
+    "Disease": "Thyroid problems",
+    "Problem Cause": "Humiliation. Feeling repressed, put down. Feeling as if life has never given you the chance to do what you want.",
+    "Tags": []
+  },
+  {
+    "Disease": "Ticks",
+    "Problem Cause": "Persistent guilt.",
+    "Tags": []
+  },
+  {
+    "Disease": "Tinnitus",
+    "Problem Cause": "Refusal to listen. Not hearing inner voice. Stubbornness.",
+    "Tags": []
+  },
+  {
+    "Disease": "Toe(s)",
+    "Problem Cause": "Represent the minor details of the future.",
+    "Tags": []
+  },
+  {
+    "Disease": "Tongue",
+    "Problem Cause": "Represents ability to taste the pleasures of life with joy.",
+    "Tags": []
+  },
+  {
+    "Disease": "Tonsillitis",
+    "Problem Cause": "Fear. Repressed emotions. Stifled creativity.",
+    "Tags": []
+  },
+  {
+    "Disease": "Tooth",
+    "Problem Cause": "Represents decisions.",
+    "Tags": []
+  },
+  {
+    "Disease": "Tuberculosis",
+    "Problem Cause": "Wasting away from selfishness. Possessive. Cruel thoughts. Revenge.",
+    "Tags": []
+  },
+  {
+    "Disease": "Tumors",
+    "Problem Cause": "Nursing old hurts and shocks. Building remorse.",
+    "Tags": []
+  },
+  {
+    "Disease": "Urinary infections",
+    "Problem Cause": "Pissed off. Usually at the opposite sex or a lover. Blaming others.",
+    "Tags": []
+  },
+  {
+    "Disease": "Urticaria (Hives)",
+    "Problem Cause": "Small, hidden fears. Making mountains out of molehills.",
+    "Tags": []
+  },
+  {
+    "Disease": "Varicose veins",
+    "Problem Cause": "Standing in a situation you hate. Discouragement. Feeling overworked and overburdened.",
+    "Tags": []
+  },
+  {
+    "Disease": "Vasovagal Attack",
+    "Problem Cause": "Fear. Fear of fear.",
+    "Tags": []
+  },
+  {
+    "Disease": "Viral infections",
+    "Problem Cause": "Lack of joy flowing through life. Bitterness.",
+    "Tags": []
+  },
+  {
+    "Disease": "Vomiting",
+    "Problem Cause": "Violent rejection of ideas. Fear of new ideas.",
+    "Tags": []
+  },
+  {
+    "Disease": "Weakness",
+    "Problem Cause": "Need for mental rest.",
+    "Tags": []
+  },
+  {
+    "Disease": "Whiplash",
+    "Problem Cause": "Fear. Being caught off guard. Feeling unable to handle things.",
+    "Tags": []
+  },
+  {
+    "Disease": "Whooping Cough",
+    "Problem Cause": "Desire to get attention.",
+    "Tags": []
+  },
+  {
+    "Disease": "Wisdom tooth, impacted",
+    "Problem Cause": "Not giving yourself mental space to create a firm foundation.",
+    "Tags": []
+  },
+  {
+    "Disease": "Wounds",
+    "Problem Cause": "Anger and guilt. Feeling unworthy.",
+    "Tags": []
+  },
+  {
+    "Disease": "Writer's cramp",
+    "Problem Cause": "Fear. Stifling creativity. Not expressing self in positive ways.",
+    "Tags": []
+  }
+]
