@@ -9,17 +9,18 @@ import SwiftUI
 struct Affirmation: Identifiable {
     let id = UUID()
     let text: String
-    let description: [String]  
+    let description: [String]
     var isLiked: Bool = false
 }
 
 struct AffirmationView: View {
     @State private var isPresented = false
     @State private var currentIndex = 0
+    @State private var isShareSheetPresented = false // Переменная для отображения ShareSheet
     @Environment(\.presentationMode) var presentationMode
     
     var name = "Colds (Upper-respiratory Illness)"
-    
+    var text : String
     @State private var affirmations = [
         Affirmation(text: "I allow my mind to be at peace.", description: [
             "Too much going on at once",
@@ -93,6 +94,18 @@ struct AffirmationView: View {
                                 Image("sendImage")
                                     .resizable()
                                     .frame(width: 28 * sizeScreen(), height: 28 * sizeScreen())
+                                    .onTapGesture {
+                                        isShareSheetPresented = true // Открываем окно ShareSheet
+                                    }
+                                    .sheet(isPresented: $isShareSheetPresented, content: {
+                                        let textToShare = affirmations[currentIndex].text
+                                        if #available(iOS 16.0, *) {
+                                            ActivityView(activityItems: [textToShare])
+                                                .presentationDetents([.fraction(3 / 5)])// Встроенный ShareSheet
+                                        } else {
+                                            ActivityView(activityItems: [textToShare])
+                                        }
+                                    })
                                 Image(affirmations[index].isLiked ? "likesSelImage" : "likesImage")
                                     .resizable()
                                     .frame(width: 28 * sizeScreen(), height: 28 * sizeScreen())
@@ -114,14 +127,26 @@ struct AffirmationView: View {
         }
         .popover(isPresented: $isPresented, content: {
             if #available(iOS 16.0, *) {
-                AffirmationDescriptionView(description: affirmations[currentIndex].description, isLiked: $affirmations[currentIndex].isLiked)
-                    .presentationDetents([.fraction(3 / 5)])
+                AffirmationDescriptionView(description: affirmations[currentIndex].description, text: text, isLiked: $affirmations[currentIndex].isLiked)
+                    .presentationDetents([.fraction(2 / 5)])
             } else {
-                AffirmationDescriptionView(description: affirmations[currentIndex].description, isLiked: $affirmations[currentIndex].isLiked)
+                AffirmationDescriptionView(description: affirmations[currentIndex].description, text: text, isLiked: $affirmations[currentIndex].isLiked)
             }
         })
     }
 }
+
+// Встроенное представление ShareSheet
+struct ActivityView: UIViewControllerRepresentable {
+    var activityItems: [Any]
+    var applicationActivities: [UIActivity]? = nil
+
+    func makeUIViewController(context: Context) -> UIActivityViewController {
+        return UIActivityViewController(activityItems: activityItems, applicationActivities: applicationActivities)
+    }
+
+    func updateUIViewController(_ uiViewController: UIActivityViewController, context: Context) {}
+}
 #Preview {
-    AffirmationView()
+    AffirmationView(text: "")
 }

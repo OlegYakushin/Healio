@@ -9,6 +9,7 @@ import SwiftUI
 
 struct AffirmationDescriptionView: View {
     var description: [String]
+    var text: String
    @Binding var isLiked: Bool
     var body: some View {
         ZStack {
@@ -17,6 +18,9 @@ struct AffirmationDescriptionView: View {
             VStack {
                 HStack {
                     Text("Colds (Upper-respiratory Illness)")
+                        .font(.custom("AveriaSerifLibre-Light", size: 26 * sizeScreen()))
+                        .multilineTextAlignment(.leading)
+                    Spacer()
                     Image(isLiked ? "likeSelImage" : "likeImage")
                         .onTapGesture {
                             withAnimation {
@@ -24,24 +28,12 @@ struct AffirmationDescriptionView: View {
                             }
                         }
                 }
-                Text("Thought patterns and feelings that can cause this disease:")
-                VStack(alignment: .leading, spacing: 10 * sizeScreen()) {
-                                ForEach(description, id: \.self) { item in
-                                    HStack {
-                                        Image("pointImage")
-                                            .resizable()
-                                            .frame(width: 20 * sizeScreen(), height: 20 * sizeScreen())
-                                        Text(item)
-                                            .font(.custom("Avenir-Roman", size: 17 * sizeScreen()))
-                                            .foregroundColor(Color("fontDark"))
-                                            .multilineTextAlignment(.leading)
-                                            .padding(.horizontal, 20 * sizeScreen())
-                                    }
-                                    .frame(width: 311 * sizeScreen(), alignment: .leading)
-                                }
-                            }
-                            .padding()
+                .frame(width: 327 * sizeScreen())
+                Text("Thought patterns and feelings that can cause this disease: \(text)")
+                    .font(.custom("AvertaDemoPE-Regular", size: 18 * sizeScreen()))
+               Spacer()
                         }
+            .padding(.top, 20 * sizeScreen())
             
         }
     }
@@ -53,5 +45,5 @@ struct AffirmationDescriptionView: View {
         "Mental confusion, disorder",
         "Small hurts",
         "The belief that you always get a cold"
-    ], isLiked: .constant(false))
+    ], text: ")", isLiked: .constant(false))
 }

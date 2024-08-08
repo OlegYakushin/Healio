@@ -46,16 +46,46 @@ class AppDelegate: NSObject, UIApplicationDelegate, UNUserNotificationCenterDele
   }
 }
 
-
 @main
 struct HealioApp: App {
-  // register app delegate for Firebase setup
-  @UIApplicationDelegateAdaptor(AppDelegate.self) var delegate
-  
-  var body: some Scene {
-    WindowGroup {
-      ContentView()
+    @UIApplicationDelegateAdaptor(AppDelegate.self) var delegate
+    @StateObject private var purchaseManager = PurchaseManager()
+
+    var body: some Scene {
+        WindowGroup {
+            RootView()
+                .environmentObject(purchaseManager)
+        }
     }
-  }
 }
 
+struct RootView: View {
+    @EnvironmentObject var purchaseManager: PurchaseManager
+
+    var body: some View {
+        Group {
+            if isFirstLaunch() {
+                ContentView()
+            } else {
+                if purchaseManager.isSubscribed {
+                    TabsView()
+                } else {
+                    TryPremiumView()
+                }
+            }
+        }
+        .onAppear {
+            purchaseManager.checkSubscriptionStatus()
+        }
+    }
+
+    // Проверка первого запуска
+    private func isFirstLaunch() -> Bool {
+        let hasLaunchedBefore = UserDefaults.standard.bool(forKey: "hasLaunchedBefore")
+        if !hasLaunchedBefore {
+            UserDefaults.standard.set(true, forKey: "hasLaunchedBefore")
+            return true
+        }
+        return false
+    }
+}

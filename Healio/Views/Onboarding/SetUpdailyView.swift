@@ -48,7 +48,7 @@ struct SetUpdailyView: View {
                     ButtonView(name: "Continue")
                         .onTapGesture{
                             requestNotificationPermission()
-                            scheduleNotifications()
+                            checkAndScheduleNotifications()
                             navigateToNextView = true
                         }
                     NavigationLink(destination: PerosonaView().navigationBarBackButtonHidden()) {
@@ -117,16 +117,27 @@ struct SetUpdailyView: View {
         }
     }
 
-    private func scheduleNotifications() {
-        if isOne {
-            scheduleNotification(for: reminderTimeOne, message: "Good morning! Start your day with positivity and healing energy.")
-        }
-        if isTwo {
-            scheduleNotification(for: reminderTimeTwo, message: "Good evening! End your day with positivity and healing energy.")
+    private func checkAndScheduleNotifications() {
+        UNUserNotificationCenter.current().getPendingNotificationRequests { requests in
+            let ids = requests.map { $0.identifier }
+            if isOne {
+                if !ids.contains("reminderTimeOne") {
+                    scheduleNotification(for: reminderTimeOne, message: "Good morning! Start your day with positivity and healing energy.", identifier: "reminderTimeOne")
+                }
+            } else {
+                removeNotification(identifier: "reminderTimeOne")
+            }
+            if isTwo {
+                if !ids.contains("reminderTimeTwo") {
+                    scheduleNotification(for: reminderTimeTwo, message: "Good evening! End your day with positivity and healing energy.", identifier: "reminderTimeTwo")
+                }
+            } else {
+                removeNotification(identifier: "reminderTimeTwo")
+            }
         }
     }
 
-    private func scheduleNotification(for date: Date, message: String) {
+    private func scheduleNotification(for date: Date, message: String, identifier: String) {
         let content = UNMutableNotificationContent()
         content.title = "Daily Affirmation"
         content.body = message
@@ -136,7 +147,7 @@ struct SetUpdailyView: View {
         dateComponents.second = 0
         let trigger = UNCalendarNotificationTrigger(dateMatching: dateComponents, repeats: true)
 
-        let request = UNNotificationRequest(identifier: UUID().uuidString, content: content, trigger: trigger)
+        let request = UNNotificationRequest(identifier: identifier, content: content, trigger: trigger)
 
         UNUserNotificationCenter.current().add(request) { error in
             if let error = error {
@@ -144,12 +155,15 @@ struct SetUpdailyView: View {
             }
         }
     }
+
+    private func removeNotification(identifier: String) {
+        UNUserNotificationCenter.current().removePendingNotificationRequests(withIdentifiers: [identifier])
+    }
 }
 
 #Preview {
     SetUpdailyView()
 }
-
 
 func saveReminderTime(_ date: Date, forKey key: String) {
     let defaults = UserDefaults.standard
